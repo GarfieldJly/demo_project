@@ -3,6 +3,7 @@ package com.garfield.sort.bean;
 /**
  * @author jingliyuan
  * @date 2020/8/4
+ * 二叉树，结构如：树结构.png
  */
 public class TreeNode {
     private int val;

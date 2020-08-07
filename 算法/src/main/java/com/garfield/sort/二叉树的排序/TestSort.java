@@ -1,6 +1,7 @@
 package com.garfield.sort.二叉树的排序;
 
 import com.garfield.sort.bean.TreeNode;
+import com.garfield.sort.二叉树的最大深度.TestMaxDeep;
 
 /**
  * @author jingliyuan
@@ -41,6 +42,7 @@ public class TestSort {
         System.out.println();
         System.out.println("后序==================");
         after(treeNodeRoot);
+
     }
     //前序：根–>左–>右
     public static void previous(TreeNode treeNode){
