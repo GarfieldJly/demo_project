@@ -32,6 +32,24 @@ public class TestThreadState {
         System.out.println("thread2 执行start方法之后的状态:"+thread2.getState());
         Thread.sleep(3000);
         System.out.println("休眠3S后thread2的状态:"+thread2.getState());
+        System.out.println("============================");
+
+        Thread thread3 = new Thread(() -> {
+            synchronized (TestThreadState.class){
+                System.out.println("thread3 调用run的状态:"+Thread.currentThread().getState());
+            }
+        });
+        System.out.println("thread3 执行start方法之前的状态:"+thread3.getState());
+
+        synchronized (TestThreadState.class){
+            thread3.start();
+            System.out.println("thread3 执行start方法之后的状态:"+thread3.getState());
+            Thread.sleep(200);
+            System.out.println("休眠200 ms之后，thread3 的状态:"+thread3.getState());
+        }
+
+        Thread.sleep(2000);
+        System.out.println("休眠2000ms之后，thread3 的状态:"+thread3.getState());
 
 
 
