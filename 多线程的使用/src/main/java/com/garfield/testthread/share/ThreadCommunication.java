@@ -119,7 +119,7 @@ public class ThreadCommunication {
         Thread.sleep(500);
         baozhi = new Object();
         System.out.println("生产包子");
-        Thread.sleep(500);
+        Thread.sleep(5000);
         synchronized (this){
             this.notify();
         }
@@ -174,9 +174,9 @@ public class ThreadCommunication {
 //        threadCommunication.testSuspendAndResumeError2();
 
 //        threadCommunication.testWaitAndNotify();
-//        threadCommunication.testWaitAndNotifyError();
+        threadCommunication.testWaitAndNotifyError();
 
 //        threadCommunication.testParkAndUnPark();
-        threadCommunication.testParkAndUnParkError();
+//        threadCommunication.testParkAndUnParkError();
     }
 }
