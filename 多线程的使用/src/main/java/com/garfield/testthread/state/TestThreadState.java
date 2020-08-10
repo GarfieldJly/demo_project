@@ -17,6 +17,11 @@ public class TestThreadState {
         System.out.println("thread1 执行start方法之后的状态:"+thread1.getState());
         System.out.println("======================================");
 
+//        thread2 执行start方法之前的状态:NEW
+//        thread2 sleep 之前的状态:RUNNABLE
+//        thread2 执行start方法之后的状态:TIMED_WAITING
+//        thread2 sleep 之后的状态:RUNNABLE
+//        休眠3S后thread2的状态:TERMINATED
         Thread thread2 = new Thread(() ->{
             System.out.println("thread2 sleep 之前的状态:"+Thread.currentThread().getState());
             try {
@@ -50,6 +55,7 @@ public class TestThreadState {
 
         Thread.sleep(2000);
         System.out.println("休眠2000ms之后，thread3 的状态:"+thread3.getState());
+
 
 
 
