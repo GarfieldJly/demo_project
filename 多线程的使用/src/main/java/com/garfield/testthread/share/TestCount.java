@@ -1,5 +1,7 @@
 package com.garfield.testthread.share;
 
+import java.util.concurrent.locks.LockSupport;
+
 /**
  * @author jingliyuan
  * @date 2020/8/10
@@ -28,6 +30,9 @@ public class TestCount {
                         e.printStackTrace();
                     }
                 }
+                synchronized (lock2){
+                    lock2.notify();
+                }
             }
         });
 
@@ -43,7 +48,6 @@ public class TestCount {
                     try {
                         System.out.println("thread2 的count值:"+count);
                         synchronized (lock3){
-//                            Thread.sleep(500);
                             lock3.notify();
                         }
                         lock2.wait();
@@ -51,6 +55,9 @@ public class TestCount {
                         e.printStackTrace();
                     }
 
+                }
+                synchronized (lock3){
+                    lock3.notify();
                 }
             }
         });
@@ -67,27 +74,65 @@ public class TestCount {
                     try {
                         System.out.println("thread3 的count值:"+count);
                         synchronized (lock1){
-//                            Thread.sleep(500);
                             lock1.notify();
                         }
                         lock3.wait();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-
+                }
+                synchronized (lock1){
+                    lock1.notify();
                 }
             }
+        });
+
+//        thread1.start();
+//        thread2.start();
+//        thread3.start();
+
+        testParkAndUnPark();
+
+    }
+
+    private static Thread thread1,thread2,thread3;
+
+    /**
+     * 创建三个线程，交替循环从1打印到100，使用park()和unpark()，不在同步代码块里不会死锁
+     */
+    private static void testParkAndUnPark(){
+        thread1 = new Thread(() -> {
+            while (count < 100){
+                count++;
+                System.out.println("thread1 的count值:"+count);
+                LockSupport.unpark(thread2);
+                LockSupport.park();
+            }
+            LockSupport.unpark(thread2);
+        });
+        thread2 = new Thread(() -> {
+            LockSupport.park();
+            while (count < 100){
+                count++;
+                System.out.println("thread2 的count值:"+count);
+                LockSupport.unpark(thread3);
+                LockSupport.park();
+            }
+            LockSupport.unpark(thread3);
+        });
+        thread3 = new Thread(() -> {
+            LockSupport.park();
+            while (count < 100){
+                count++;
+                System.out.println("thread3 的count值:"+count);
+                LockSupport.unpark(thread1);
+                LockSupport.park();
+            }
+            LockSupport.unpark(thread1);
         });
 
         thread1.start();
         thread2.start();
         thread3.start();
-
-
-
-//        synchronized (TestCount.class){
-//            Thread.sleep(500);
-//            TestCount.class.notify();
-//        }
     }
 }
