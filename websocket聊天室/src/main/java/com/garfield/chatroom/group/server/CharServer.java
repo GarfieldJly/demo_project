@@ -90,6 +90,10 @@ public class CharServer {
         List<Integer> groupIdList = groupWebSocketMap.get(groupId);
         if (!CollectionUtils.isEmpty(groupIdList)) {
             for (int i = 0; i < groupIdList.size(); i++) {
+                //把消息发送给除了自己的其他人
+                if(id == i){
+                    continue;
+                }
                 Session toClient = webSocketMap.get(groupIdList.get(i));
                 //群发消息
                 if (toClient != null) {
