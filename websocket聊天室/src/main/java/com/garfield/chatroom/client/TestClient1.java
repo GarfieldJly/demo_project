@@ -4,13 +4,6 @@ package com.garfield.chatroom.client;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.WebSocket;
-import org.springframework.util.concurrent.ListenableFuture;
-import org.springframework.web.socket.WebSocketHandler;
-import org.springframework.web.socket.WebSocketHttpHeaders;
-import org.springframework.web.socket.WebSocketSession;
-import org.springframework.web.socket.client.WebSocketClient;
-
-import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
@@ -20,7 +13,7 @@ import java.util.concurrent.TimeUnit;
  * @date 2020/8/12
  * 客户端
  */
-public class TestClient {
+public class TestClient1 {
     public static void main(String[] args) throws URISyntaxException {
 
         OkHttpClient mOkHttpClient = new OkHttpClient.Builder()
@@ -33,7 +26,6 @@ public class TestClient {
         EchoWebSocketListener socketListener = new EchoWebSocketListener();
         WebSocket webSocket = mOkHttpClient.newWebSocket(request, socketListener);
 //        mOkHttpClient.dispatcher().executorService().shutdown();
-
 
         Scanner scanner = new Scanner(System.in);
         String text = scanner.nextLine();
