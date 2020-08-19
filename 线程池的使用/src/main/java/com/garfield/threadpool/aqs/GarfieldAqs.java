@@ -8,6 +8,8 @@ import java.util.concurrent.locks.LockSupport;
 /**
  * @author jingliyuan
  * @date 2020/8/19
+ * AQS就主要三个步骤，自旋，cas，线程阻塞和唤醒
+ * 图片:resources/AQS抽象队列同步器.png
  */
 public class GarfieldAqs  {
     private AtomicReference<Thread> owner;
@@ -53,19 +55,19 @@ public class GarfieldAqs  {
     }
 
     //共享资源接口
+    public void tryAcquireShared(){
+        throw new UnsupportedOperationException();
+    }
+
     public void acquireShared(){
 
     }
 
-    public void releaseShared(){
-
-    }
-
-    public void tryAcquireShared(){
-
-    }
-
     public void tryReleaseShared(){
+        throw new UnsupportedOperationException();
+    }
+
+    public void releaseShared(){
 
     }
 
