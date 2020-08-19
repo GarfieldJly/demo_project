@@ -1,5 +1,7 @@
 package com.garfield.threadpool.lock;
 
+import com.garfield.threadpool.aqs.CustomLock;
+
 import java.util.concurrent.locks.Lock;
 
 /**
@@ -11,7 +13,9 @@ public class LockDemo1 {
     static volatile int count = 0;
 //    private Lock lock = new ReentrantLock();
     //换成自定义的锁
-    private Lock lock = new GarfieldLock();
+//    private Lock lock = new GarfieldLock();
+    //换成AQS自定义锁
+    private Lock lock = new CustomLock();
 
     private void add(){
         lock.lock();
