@@ -11,6 +11,12 @@ package com.garfield.testthread.close;
 public class TestThreadLocal {
     private static String value = "";
 
+    /**
+     * 执行结果
+     * main中value 的值是:garfield
+     * threadLocal 中 value的值:cat
+     * value的值:garfield
+     */
     public static void main(String[] args) {
         value = "garfield";
         System.out.println(Thread.currentThread().getName() + "中value 的值是:" + value);

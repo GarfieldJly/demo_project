@@ -3,7 +3,7 @@ package com.garfield.testthread.share;
 import java.util.concurrent.locks.LockSupport;
 
 /**
- * 见图片 线程的中止
+ * 见图片 resource/线程的中止.png
  */
 public class ThreadCommunication {
     private Object baozhi ;

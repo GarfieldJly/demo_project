@@ -39,6 +39,11 @@ public class TestThreadState {
         System.out.println("休眠3S后thread2的状态:"+thread2.getState());
         System.out.println("============================");
 
+        //thread3 执行start方法之前的状态:NEW
+        //thread3 执行start方法之后的状态:RUNNABLE
+        //休眠200 ms之后，thread3 的状态:BLOCKED
+        //thread3 调用run的状态:RUNNABLE
+        //休眠2000ms之后，thread3 的状态:TERMINATED
         Thread thread3 = new Thread(() -> {
             synchronized (TestThreadState.class){
                 System.out.println("thread3 调用run的状态:"+Thread.currentThread().getState());

@@ -8,35 +8,39 @@ package com.garfield.testthread.lock;
  * 对象锁是有多个
  */
 public class TestLock1 {
-    int count = 0;
-    private synchronized void add(){
-        while (count < 10000){
-            count++;
-            System.out.println(count);
+
+    /**
+     * lock1() 和 lock()2 用的是同一把锁
+     */
+    private  void lock1(){
+        synchronized (this){
+            System.out.println("lock1 执行");
+            lock2();
         }
     }
 
-    private void test1(){
-        new Thread(() ->{
-            TestLock1 testLock1 = new TestLock1();
-            testLock1.add();
-        }).start();
-
-        new Thread(() ->{
-            TestLock1 testLock1 = new TestLock1();
-            testLock1.add();
-        }).start();
-
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+    private void lock2(){
+        synchronized (this){
+            System.out.println("lock2 执行");
         }
-        System.out.println("5秒后count的值:"+count);
     }
+
+    private void lock3(){
+        synchronized (this){
+            System.out.println("lock3 执行");
+            lock4();
+        }
+    }
+    Integer count = 0;
+    private void lock4(){
+        synchronized (count){
+            System.out.println("lock4 执行");
+        }
+    }
+
 
     public static void main(String[] args) {
         TestLock1 testLock1 = new TestLock1();
-        testLock1.test1();
+        testLock1.lock1();
     }
 }
