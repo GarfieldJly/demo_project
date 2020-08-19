@@ -2,6 +2,7 @@ package com.garfield.threadpool.aqs;
 
 import java.util.Iterator;
 import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.locks.LockSupport;
 
@@ -14,6 +15,9 @@ import java.util.concurrent.locks.LockSupport;
 public class GarfieldAqs  {
     private AtomicReference<Thread> owner;
     private LinkedBlockingQueue<Thread> waiter = new LinkedBlockingQueue();
+    //共享锁的状态
+    private AtomicInteger state = new AtomicInteger(0);
+
     //独占接口
     public void acquire(){
         boolean flag = true;
@@ -55,20 +59,44 @@ public class GarfieldAqs  {
     }
 
     //共享资源接口
-    public void tryAcquireShared(){
+    public boolean tryAcquireShared(){
         throw new UnsupportedOperationException();
     }
 
     public void acquireShared(){
-
+        boolean flag = true;
+        while (!tryAcquireShared()){
+            if(flag){
+                waiter.offer(Thread.currentThread());
+                flag = false;
+            }
+            //挂起
+            LockSupport.park();
+        }
+        waiter.remove(Thread.currentThread());
     }
 
-    public void tryReleaseShared(){
+    public boolean tryReleaseShared(){
         throw new UnsupportedOperationException();
     }
 
     public void releaseShared(){
+        if(tryReleaseShared()){
+            //waiter 清空
+            Iterator<Thread> iterator = waiter.iterator();
+            while (iterator.hasNext()){
+                //线程唤醒
+                LockSupport.unpark(iterator.next());
 
+            }
+        }
     }
 
+    public AtomicInteger getState() {
+        return state;
+    }
+
+    public void setState(AtomicInteger state) {
+        this.state = state;
+    }
 }
