@@ -16,7 +16,7 @@ public class CustomReadLock implements Lock {
         //读锁 加锁时如果有写锁且owner不是当前线程，加锁失败阻塞，否则state自增，加锁成功
         @Override
         public boolean tryAcquireShared() {
-            if (getOwner() != null && getOwner().equals(Thread.currentThread())){
+            if (getOwner() != null && !Thread.currentThread().equals(getOwner().get())){
                 return false;
             }
             getState().incrementAndGet();
@@ -25,8 +25,7 @@ public class CustomReadLock implements Lock {
         //读锁 解锁时state减1
         @Override
         public boolean tryReleaseShared() {
-            getState().decrementAndGet();
-            return true;
+            return getState().decrementAndGet() > 0;
         }
     };
 
