@@ -14,7 +14,7 @@ import java.util.concurrent.locks.LockSupport;
  */
 public class GarfieldAqs  {
     private AtomicReference<Thread> owner;
-    private LinkedBlockingQueue<Thread> waiter = new LinkedBlockingQueue();
+    private volatile LinkedBlockingQueue<Thread> waiter = new LinkedBlockingQueue();
     //共享锁的状态
     private AtomicInteger state = new AtomicInteger(0);
 
