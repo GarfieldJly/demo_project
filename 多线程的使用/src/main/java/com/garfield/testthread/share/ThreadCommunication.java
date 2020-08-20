@@ -177,9 +177,9 @@ public class ThreadCommunication {
 //        threadCommunication.testSuspendAndResumeError2();
 
 //        threadCommunication.testWaitAndNotify();
-        threadCommunication.testWaitAndNotifyError();
+//        threadCommunication.testWaitAndNotifyError();
 
 //        threadCommunication.testParkAndUnPark();
-//        threadCommunication.testParkAndUnParkError();
+        threadCommunication.testParkAndUnParkError();
     }
 }

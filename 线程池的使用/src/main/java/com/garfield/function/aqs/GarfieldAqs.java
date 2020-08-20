@@ -13,7 +13,7 @@ import java.util.concurrent.locks.LockSupport;
  * 图片:resources/AQS抽象队列同步器.png
  */
 public class GarfieldAqs  {
-    private AtomicReference<Thread> owner;
+    private AtomicReference<Thread> owner = new AtomicReference<>();
     private volatile LinkedBlockingQueue<Thread> waiter = new LinkedBlockingQueue();
     //共享锁的状态
     private AtomicInteger state = new AtomicInteger(0);
@@ -98,5 +98,21 @@ public class GarfieldAqs  {
 
     public void setState(AtomicInteger state) {
         this.state = state;
+    }
+
+    public AtomicReference<Thread> getOwner() {
+        return owner;
+    }
+
+    public void setOwner(AtomicReference<Thread> owner) {
+        this.owner = owner;
+    }
+
+    public LinkedBlockingQueue<Thread> getWaiter() {
+        return waiter;
+    }
+
+    public void setWaiter(LinkedBlockingQueue<Thread> waiter) {
+        this.waiter = waiter;
     }
 }
