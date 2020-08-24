@@ -1,31 +1,32 @@
 package com.garfield.function.aqs;
 
+import java.util.concurrent.locks.Lock;
+
 /**
  * @author jingliyuan
  * @date 2020/8/20
  */
 public class ReentrantReadWriteLockDemo1 {
 
-    private CustomReadLock readLock = new CustomReadLock();
-    private CustomWriteLock writeLock = new CustomWriteLock();
+    private CustomReentrantReadWriteLock customReentrantReadWriteLock = new CustomReentrantReadWriteLock();
 
     private void testRead(Thread thread){
-        readLock.lock();
+        customReentrantReadWriteLock.readLock().lock();
         long startTime = System.currentTimeMillis();
         while (System.currentTimeMillis() - startTime < 1){
             System.out.println(thread.getName() + "开始读取数据");
         }
-        readLock.unlock();
+        customReentrantReadWriteLock.readLock().unlock();
         System.out.println(thread.getName() + "结束读取数据");
     }
 
     private void testWrite(Thread thread){
-        writeLock.lock();
+        customReentrantReadWriteLock.writeLock().lock();
         long startTime = System.currentTimeMillis();
         while (System.currentTimeMillis() - startTime < 1){
             System.out.println(thread.getName() + "开始写数据");
         }
-        writeLock.unlock();
+        customReentrantReadWriteLock.writeLock().unlock();
         System.out.println(thread.getName() + "结束写数据");
     }
 

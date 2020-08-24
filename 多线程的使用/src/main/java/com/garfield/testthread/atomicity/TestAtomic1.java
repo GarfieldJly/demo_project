@@ -16,19 +16,22 @@ public class TestAtomic1 {
      * 两个线程都修改变量 count 的值，看最后count的值是否符合预期
      * 结果可能为10001 ，不正确
      */
-    int count1;
-//    private void test1() throws InterruptedException {
-//        for (int i = 0; i < 2; i++) {
-//            new Thread(() ->{
-//                for (int j = 0; j < 10000; j++) {
-//                    add(count1);
-//                }
-//            }).start();
-//        }
-//        Thread.sleep(2000);
-//        System.out.println("count 的值是："+count1);
-//    }
+    volatile int count1 = 0;
+    private void test1() throws InterruptedException {
+        for (int i = 0; i < 2; i++) {
+            new Thread(() ->{
+                for (int j = 0; j < 10000; j++) {
+                    addCount1();
+                }
+            }).start();
+        }
+        Thread.sleep(2000);
+        System.out.println("count1 的值是："+count1);
+    }
 
+    private void addCount1(){
+        count1++;
+    }
 
     /**
      * 两个线程都修改变量 count 的值，看最后count的值是否符合预期
@@ -108,8 +111,8 @@ public class TestAtomic1 {
         TestAtomic1 testAtomic = new TestAtomic1();
 //        testAtomic.test1();
 //        testAtomic.test2();
-//        testAtomic.test3();
-//        testAtomic.test4();
+        testAtomic.test3();
+        testAtomic.test4();
         testAtomic.test5();
 
     }
