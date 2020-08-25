@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author jingliyuan
  * @date 2020/8/19
- * 信号量：可以指定多个线程同时访问一个资源，包括锁资源
+ * 信号量：使用AQS自定义实现信号量 Semaphore
  */
 public class SemaphoreDemo2 {
 /**
