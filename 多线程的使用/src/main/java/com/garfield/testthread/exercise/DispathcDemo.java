@@ -30,6 +30,7 @@ public class DispathcDemo {
         for (int i = 1; i <= 5; i++) {
             Window window = new Window(i);
             try {
+                window.setWindowCode(i);
                 windowQueue.put(window);
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -38,6 +39,11 @@ public class DispathcDemo {
     }
 
     public void dispatch()  {
+
+        Thread customerThead = new Thread(new ConsumerDemo());
+        customerThead.start();
+        Thread producerThread = new Thread(new ProducerDemo(customerThead));
+        producerThread.start();
 
 
     }

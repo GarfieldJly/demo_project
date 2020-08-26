@@ -8,7 +8,8 @@ package com.garfield.testthread.exercise;
 public class Customer {
     //编号
     private int customerCode;
-    private String name;
+    //随机执行时间
+    private long randomExecutorTime;
 
     public int getCustomerCode() {
         return customerCode;
@@ -18,19 +19,19 @@ public class Customer {
         this.customerCode = customerCode;
     }
 
-    public String getName() {
-        return name;
+    public long getRandomExecutorTime() {
+        return randomExecutorTime;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setRandomExecutorTime(long randomExecutorTime) {
+        this.randomExecutorTime = randomExecutorTime;
     }
 
     public Customer() {
     }
 
-    public Customer(int customerCode, String name) {
+    public Customer(int customerCode, long randomExecutorTime) {
         this.customerCode = customerCode;
-        this.name = name;
+        this.randomExecutorTime = randomExecutorTime;
     }
 }
