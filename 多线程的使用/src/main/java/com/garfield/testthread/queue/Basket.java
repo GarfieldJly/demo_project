@@ -1,4 +1,4 @@
-package com.garfield.testthread.Queue;
+package com.garfield.testthread.queue;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
@@ -22,6 +22,17 @@ public class Basket {
 
     public int getAppleNumber(){
         return basket.size();
+    }
+
+    public static void main(String[] args) {
+        float num = -1.5f;
+        float v = num % 1;
+        System.out.println(v);
+        if(num % 1 == 0){
+            System.out.println("aa");
+        }else{
+            System.out.println("bb");
+        }
     }
 
 }

@@ -1,4 +1,4 @@
-package com.garfield.testthread.Queue;
+package com.garfield.testthread.queue;
 
 import java.util.concurrent.*;
 

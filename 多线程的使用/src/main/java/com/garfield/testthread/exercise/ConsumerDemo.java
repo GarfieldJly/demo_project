@@ -16,8 +16,9 @@ public class ConsumerDemo implements Runnable{
     @Override
     public void run() {
         while (true){
-            LinkedBlockingQueue<Window> windowQueue = DispathcDemo.windowQueue;
-            LinkedBlockingQueue<Customer> customerQueue = DispathcDemo.customerQueue;
+            LinkedBlockingQueue<Window> windowQueue = DispatchDemo.windowQueue;
+            LinkedBlockingQueue<Customer> customerQueue = DispatchDemo.customerQueue;
+            //若都为空，则阻塞，等待
             while (windowQueue.size() == 0 || customerQueue.size() ==0) {
                 LockSupport.park();
             }
@@ -25,6 +26,9 @@ public class ConsumerDemo implements Runnable{
             Window window = windowQueue.poll();
             Customer customer = customerQueue.poll();
             window.setCustomer(customer);
+            window.setCustomerThread(DispatchDemo.customerThead);
+            System.out.println(customer.getCustomerCode() + "号客户去" + window.getWindowCode() + "号窗口办理业务");
+            //窗口开始为该客户服务
             threadPoolExecutor.submit(window);
         }
 

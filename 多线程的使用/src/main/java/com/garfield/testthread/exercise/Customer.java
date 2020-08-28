@@ -3,7 +3,7 @@ package com.garfield.testthread.exercise;
 /**
  * @author jingliyuan
  * @date 2020/8/26
- * 客户
+ * 客户(随机编号和享受服务时间)
  */
 public class Customer {
     //编号
