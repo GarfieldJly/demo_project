@@ -1,7 +1,7 @@
 package com.garfield.forkjoinpool;
 
-import com.garfield.forkjoinpool.service.ForkJoinService1;
-import com.garfield.forkjoinpool.service.ForkJoinService2;
+import com.alibaba.fastjson.JSONObject;
+import com.garfield.forkjoinpool.service.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -49,6 +49,63 @@ public class ApplicationTest {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        System.out.println("执行耗时:"+ (System.currentTimeMillis() - startTime)+"毫秒");
+    }
+
+    @Autowired
+    private CountDownLatchService3 countDownLatchService3;
+    @Test
+    public void testCountDownLatchService3(){
+        long startTime = System.currentTimeMillis();
+        try {
+            countDownLatchService3.init();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("执行耗时:"+ (System.currentTimeMillis() - startTime)+"毫秒");
+    }
+
+    @Autowired
+    private FutureTaskService4 futureTaskService4;
+    @Test
+    public void testFutureTaskService4(){
+        long startTime = System.currentTimeMillis();
+        try {
+            futureTaskService4.init();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("执行耗时:"+ (System.currentTimeMillis() - startTime)+"毫秒");
+    }
+
+    @Autowired
+    private FutureTaskService5 futureTaskService5;
+    @Test
+    public void testFutureTaskService5(){
+        long startTime = System.currentTimeMillis();
+        try {
+            futureTaskService5.init();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("执行耗时:"+ (System.currentTimeMillis() - startTime)+"毫秒");
+    }
+
+    @Autowired
+    private ForkJoinService3 forkJoinService3;
+    @Test
+    public void testForkJoinService3(){
+        long startTime = System.currentTimeMillis();
+
+        int sum = forkJoinService3.getSum();
+        System.out.println("1到30000的和为:"+sum);
+
         System.out.println("执行耗时:"+ (System.currentTimeMillis() - startTime)+"毫秒");
     }
 }

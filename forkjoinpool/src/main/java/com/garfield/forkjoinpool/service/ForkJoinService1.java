@@ -19,9 +19,9 @@ public class ForkJoinService1 {
      * 初始化“我的”页面数据
      */
     public void init(){
-        restTemplate.getForObject("http://localhost:8090/forkjoinpool/getName", UserBo.class);
-        restTemplate.getForObject("http://localhost:8090/forkjoinpool/getBalance", BalanceBo.class);
-
-
+        UserBo userBo = restTemplate.getForObject("http://localhost:8090/forkjoinpool/getName", UserBo.class);
+        BalanceBo balanceBo = restTemplate.getForObject("http://localhost:8090/forkjoinpool/getBalance", BalanceBo.class);
+        System.out.println("userBo的值是:"+userBo);
+        System.out.println("balanceBo的值是:"+balanceBo);
     }
 }

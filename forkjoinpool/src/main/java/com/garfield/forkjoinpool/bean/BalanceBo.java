@@ -11,5 +11,5 @@ import java.util.concurrent.atomic.AtomicReference;
 @Data
 public class BalanceBo {
     private AtomicReference<Double> balance = new AtomicReference<>(100.8);
-    private String name = "加菲猫";
+    private String nickName = "加菲猫";
 }
