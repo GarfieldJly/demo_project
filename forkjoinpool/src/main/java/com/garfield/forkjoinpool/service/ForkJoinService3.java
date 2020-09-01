@@ -1,7 +1,6 @@
 package com.garfield.forkjoinpool.service;
 
 import com.garfield.forkjoinpool.bean.NumberBo;
-import org.hamcrest.beans.SamePropertyValuesAs;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.ExecutionException;
@@ -17,7 +16,7 @@ import java.util.concurrent.ForkJoinTask;
 public class ForkJoinService3 {
     private int sum;
     /**
-     * 初始化“我的”页面数据
+     * 计算从1加到30000的和
      */
     public int getSum()  {
         ForkJoinPool forkJoinPool = new ForkJoinPool(3);

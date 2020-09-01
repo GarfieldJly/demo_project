@@ -30,7 +30,7 @@ public class ForkJoinService2 {
         ArrayList<String> urlList = new ArrayList<>();
         urlList.add("http://localhost:8090/forkjoinpool/getName");
         urlList.add("http://localhost:8090/forkjoinpool/getBalance");
-
+        //类似于Executor类
         ForkJoinPool forkJoinPool = new ForkJoinPool(5);
         ForkJoinTask<JSONObject> submit = forkJoinPool.submit(new HttpRequestBo(urlList, 0, urlList.size() - 1, restTemplate));
         JSONObject jsonObject = submit.get();

@@ -9,6 +9,7 @@ import org.springframework.web.client.RestTemplate;
 /**
  * @author jingliyuan
  * @date 2020/8/29
+ * 串行的执行
  */
 @Service
 public class ForkJoinService1 {

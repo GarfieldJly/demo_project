@@ -34,6 +34,7 @@ public class ApplicationTest {
     public void testForkJoinService1(){
         long startTime = System.currentTimeMillis();
         forkJoinService1.init();
+        //执行时间为两个接口请求时间之和
         System.out.println("执行耗时:"+ (System.currentTimeMillis() - startTime)+"毫秒");
     }
 
