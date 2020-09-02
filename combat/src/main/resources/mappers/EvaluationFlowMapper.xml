@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.combat.dao.EvaluationFlowMapper">
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationFlow">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="FLOW_WORD_TEXT" jdbcType="VARCHAR" property="flowWordText" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationFlow">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="FLOW_WORD_TEXT" jdbcType="VARCHAR" property="flowWordText" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationFlow">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="FLOW_WORD_TEXT" jdbcType="VARCHAR" property="flowWordText" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationFlow">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="FLOW_WORD_TEXT" jdbcType="VARCHAR" property="flowWordText" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationFlow">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="FLOW_WORD_TEXT" jdbcType="VARCHAR" property="flowWordText" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationFlow">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="FLOW_WORD_TEXT" jdbcType="VARCHAR" property="flowWordText" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationFlow">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="FLOW_WORD_TEXT" jdbcType="VARCHAR" property="flowWordText" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.combat.dao.RuleMapper">
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="RULE_ID" jdbcType="DECIMAL" property="ruleId" />
+    <result column="ORGAN_CODE" jdbcType="OTHER" property="organCode" />
+    <result column="RULE_JP" jdbcType="OTHER" property="ruleJp" />
+    <result column="CATALOGUE_CODE" jdbcType="OTHER" property="catalogueCode" />
+    <result column="RULE_NAME" jdbcType="OTHER" property="ruleName" />
+    <result column="CATALOGUE_RULE" jdbcType="OTHER" property="catalogueRule" />
+    <result column="PROPERTY_SCOPE" jdbcType="OTHER" property="propertyScope" />
+    <result column="RULE_UNIT" jdbcType="OTHER" property="ruleUnit" />
+    <result column="CATALOGUE_REMARK" jdbcType="OTHER" property="catalogueRemark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="RULE_ID" jdbcType="VARCHAR" property="ruleId" />
+    <result column="RULE_JP" jdbcType="VARCHAR" property="ruleJp" />
+    <result column="RULE_NAME" jdbcType="VARCHAR" property="ruleName" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+    <result column="BASIC_TYPE" jdbcType="VARCHAR" property="basicType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="RULE_ID" jdbcType="DECIMAL" property="ruleId" />
+    <result column="ORGAN_CODE" jdbcType="OTHER" property="organCode" />
+    <result column="RULE_JP" jdbcType="OTHER" property="ruleJp" />
+    <result column="CATALOGUE_CODE" jdbcType="OTHER" property="catalogueCode" />
+    <result column="RULE_NAME" jdbcType="OTHER" property="ruleName" />
+    <result column="CATALOGUE_RULE" jdbcType="OTHER" property="catalogueRule" />
+    <result column="PROPERTY_SCOPE" jdbcType="OTHER" property="propertyScope" />
+    <result column="RULE_UNIT" jdbcType="OTHER" property="ruleUnit" />
+    <result column="CATALOGUE_REMARK" jdbcType="OTHER" property="catalogueRemark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="RULE_ID" jdbcType="DECIMAL" property="ruleId" />
+    <result column="ORGAN_CODE" jdbcType="OTHER" property="organCode" />
+    <result column="RULE_JP" jdbcType="OTHER" property="ruleJp" />
+    <result column="CATALOGUE_CODE" jdbcType="OTHER" property="catalogueCode" />
+    <result column="RULE_NAME" jdbcType="OTHER" property="ruleName" />
+    <result column="CATALOGUE_RULE" jdbcType="OTHER" property="catalogueRule" />
+    <result column="PROPERTY_SCOPE" jdbcType="OTHER" property="propertyScope" />
+    <result column="RULE_UNIT" jdbcType="OTHER" property="ruleUnit" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+    <result column="BASIC_TYPE" jdbcType="VARCHAR" property="basicType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="RULE_ID" jdbcType="DECIMAL" property="ruleId" />
+    <result column="ORGAN_CODE" jdbcType="OTHER" property="organCode" />
+    <result column="RULE_JP" jdbcType="OTHER" property="ruleJp" />
+    <result column="CATALOGUE_CODE" jdbcType="OTHER" property="catalogueCode" />
+    <result column="RULE_NAME" jdbcType="OTHER" property="ruleName" />
+    <result column="CATALOGUE_RULE" jdbcType="OTHER" property="catalogueRule" />
+    <result column="PROPERTY_SCOPE" jdbcType="OTHER" property="propertyScope" />
+    <result column="RULE_UNIT" jdbcType="OTHER" property="ruleUnit" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+    <result column="BASIC_TYPE" jdbcType="VARCHAR" property="basicType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+    <result column="BASIC_TYPE" jdbcType="VARCHAR" property="basicType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="RULE_ID" jdbcType="DECIMAL" property="ruleId" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="RULE_NAME" jdbcType="VARCHAR" property="ruleName" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="RULE_UNIT" jdbcType="VARCHAR" property="ruleUnit" />
+    <result column="RULE_SIMPLE" jdbcType="VARCHAR" property="ruleSimple" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+    <result column="BASIC_TYPE" jdbcType="VARCHAR" property="basicType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+    <result column="BASIC_TYPE" jdbcType="VARCHAR" property="basicType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="RULE_ID" jdbcType="DECIMAL" property="ruleId" />
+    <result column="ORGAN_CODE" jdbcType="OTHER" property="organCode" />
+    <result column="RULE_JP" jdbcType="OTHER" property="ruleJp" />
+    <result column="CATALOGUE_CODE" jdbcType="OTHER" property="catalogueCode" />
+    <result column="RULE_NAME" jdbcType="OTHER" property="ruleName" />
+    <result column="CATALOGUE_RULE" jdbcType="OTHER" property="catalogueRule" />
+    <result column="PROPERTY_SCOPE" jdbcType="OTHER" property="propertyScope" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="CATALOGUE_REMARK" jdbcType="VARCHAR" property="catalogueRemark" />
+    <result column="RULE_UNIT" jdbcType="VARCHAR" property="ruleUnit" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+    <result column="BASIC_TYPE" jdbcType="VARCHAR" property="basicType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+    <result column="BASIC_TYPE" jdbcType="VARCHAR" property="basicType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="RULE_ID" jdbcType="DECIMAL" property="ruleId" />
+    <result column="RULE_JP" jdbcType="VARCHAR" property="ruleJp" />
+    <result column="RULE_NAME" jdbcType="VARCHAR" property="ruleName" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+    <result column="BASIC_TYPE" jdbcType="VARCHAR" property="basicType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="RULE_ID" jdbcType="DECIMAL" property="ruleId" />
+    <result column="RULE_JP" jdbcType="OTHER" property="ruleJp" />
+    <result column="CATALOGUE_CODE" jdbcType="OTHER" property="catalogueCode" />
+    <result column="RULE_NAME" jdbcType="OTHER" property="ruleName" />
+    <result column="CATALOGUE_RULE" jdbcType="OTHER" property="catalogueRule" />
+    <result column="PROPERTY_SCOPE" jdbcType="OTHER" property="propertyScope" />
+    <result column="RULE_UNIT" jdbcType="OTHER" property="ruleUnit" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="RULE_ID" jdbcType="DECIMAL" property="ruleId" />
+    <result column="ORGAN_CODE" jdbcType="OTHER" property="organCode" />
+    <result column="RULE_JP" jdbcType="OTHER" property="ruleJp" />
+    <result column="CATALOGUE_CODE" jdbcType="OTHER" property="catalogueCode" />
+    <result column="RULE_NAME" jdbcType="OTHER" property="ruleName" />
+    <result column="CATALOGUE_RULE" jdbcType="OTHER" property="catalogueRule" />
+    <result column="PROPERTY_SCOPE" jdbcType="OTHER" property="propertyScope" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="CATALOGUE_REMARK" jdbcType="VARCHAR" property="catalogueRemark" />
+    <result column="RULE_UNIT" jdbcType="VARCHAR" property="ruleUnit" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="RULE_ID" jdbcType="DECIMAL" property="ruleId" />
+    <result column="ORGAN_CODE" jdbcType="OTHER" property="organCode" />
+    <result column="RULE_JP" jdbcType="OTHER" property="ruleJp" />
+    <result column="CATALOGUE_CODE" jdbcType="OTHER" property="catalogueCode" />
+    <result column="RULE_NAME" jdbcType="OTHER" property="ruleName" />
+    <result column="CATALOGUE_RULE" jdbcType="OTHER" property="catalogueRule" />
+    <result column="PROPERTY_SCOPE" jdbcType="OTHER" property="propertyScope" />
+    <result column="RULE_UNIT" jdbcType="OTHER" property="ruleUnit" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="RULE_ID" jdbcType="DECIMAL" property="ruleId" />
+    <result column="ORGAN_CODE" jdbcType="OTHER" property="organCode" />
+    <result column="RULE_JP" jdbcType="OTHER" property="ruleJp" />
+    <result column="CATALOGUE_CODE" jdbcType="OTHER" property="catalogueCode" />
+    <result column="RULE_NAME" jdbcType="OTHER" property="ruleName" />
+    <result column="CATALOGUE_RULE" jdbcType="OTHER" property="catalogueRule" />
+    <result column="PROPERTY_SCOPE" jdbcType="OTHER" property="propertyScope" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="CATALOGUE_REMARK" jdbcType="VARCHAR" property="catalogueRemark" />
+    <result column="RULE_UNIT" jdbcType="VARCHAR" property="ruleUnit" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Rule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="DEFAULT_TYPE" jdbcType="DECIMAL" property="defaultType" />
+  </resultMap>
+</mapper>

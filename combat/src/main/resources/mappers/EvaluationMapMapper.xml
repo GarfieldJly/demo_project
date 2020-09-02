@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.combat.dao.EvaluationMapMapper">
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="MAP_TYPE" jdbcType="DECIMAL" property="mapType" />
+    <result column="RELATED_ID" jdbcType="DECIMAL" property="relatedId" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="MAP_INTERVAL" jdbcType="DECIMAL" property="mapInterval" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFIED_TIME" jdbcType="TIMESTAMP" property="modifiedTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="MAP_TYPE" jdbcType="DECIMAL" property="mapType" />
+    <result column="RELATED_ID" jdbcType="DECIMAL" property="relatedId" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="MAP_INTERVAL" jdbcType="DECIMAL" property="mapInterval" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFIED_TIME" jdbcType="TIMESTAMP" property="modifiedTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="MAP_TYPE" jdbcType="DECIMAL" property="mapType" />
+    <result column="RELATED_ID" jdbcType="DECIMAL" property="relatedId" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="MAP_INTERVAL" jdbcType="DECIMAL" property="mapInterval" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFIED_TIME" jdbcType="TIMESTAMP" property="modifiedTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="MAP_TYPE" jdbcType="DECIMAL" property="mapType" />
+    <result column="RELATED_ID" jdbcType="DECIMAL" property="relatedId" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="MAP_INTERVAL" jdbcType="DECIMAL" property="mapInterval" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFIED_TIME" jdbcType="TIMESTAMP" property="modifiedTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="MAP_TYPE" jdbcType="DECIMAL" property="mapType" />
+    <result column="RELATED_ID" jdbcType="DECIMAL" property="relatedId" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="MAP_INTERVAL" jdbcType="DECIMAL" property="mapInterval" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFIED_TIME" jdbcType="TIMESTAMP" property="modifiedTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="MAP_TYPE" jdbcType="DECIMAL" property="mapType" />
+    <result column="RELATED_ID" jdbcType="DECIMAL" property="relatedId" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="MAP_INTERVAL" jdbcType="DECIMAL" property="mapInterval" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFIED_TIME" jdbcType="TIMESTAMP" property="modifiedTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="MAP_TYPE" jdbcType="DECIMAL" property="mapType" />
+    <result column="RELATED_ID" jdbcType="DECIMAL" property="relatedId" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="MAP_INTERVAL" jdbcType="DECIMAL" property="mapInterval" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFIED_TIME" jdbcType="TIMESTAMP" property="modifiedTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="MAP_TYPE" jdbcType="DECIMAL" property="mapType" />
+    <result column="RELATED_ID" jdbcType="DECIMAL" property="relatedId" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="MAP_INTERVAL" jdbcType="DECIMAL" property="mapInterval" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFIED_TIME" jdbcType="TIMESTAMP" property="modifiedTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="MAP_TYPE" jdbcType="DECIMAL" property="mapType" />
+    <result column="RELATED_ID" jdbcType="DECIMAL" property="relatedId" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="MAP_INTERVAL" jdbcType="DECIMAL" property="mapInterval" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFIED_TIME" jdbcType="TIMESTAMP" property="modifiedTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="MAP_TYPE" jdbcType="DECIMAL" property="mapType" />
+    <result column="RELATED_ID" jdbcType="DECIMAL" property="relatedId" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="MAP_INTERVAL" jdbcType="DECIMAL" property="mapInterval" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFIED_TIME" jdbcType="TIMESTAMP" property="modifiedTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="MAP_TYPE" jdbcType="DECIMAL" property="mapType" />
+    <result column="RELATED_ID" jdbcType="DECIMAL" property="relatedId" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="MAP_INTERVAL" jdbcType="DECIMAL" property="mapInterval" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFIED_TIME" jdbcType="TIMESTAMP" property="modifiedTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="MAP_TYPE" jdbcType="DECIMAL" property="mapType" />
+    <result column="RELATED_ID" jdbcType="DECIMAL" property="relatedId" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="MAP_INTERVAL" jdbcType="DECIMAL" property="mapInterval" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFIED_TIME" jdbcType="TIMESTAMP" property="modifiedTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="MAP_TYPE" jdbcType="DECIMAL" property="mapType" />
+    <result column="RELATED_ID" jdbcType="DECIMAL" property="relatedId" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="MAP_INTERVAL" jdbcType="DECIMAL" property="mapInterval" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFIED_TIME" jdbcType="TIMESTAMP" property="modifiedTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="MAP_TYPE" jdbcType="DECIMAL" property="mapType" />
+    <result column="RELATED_ID" jdbcType="DECIMAL" property="relatedId" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="MAP_INTERVAL" jdbcType="DECIMAL" property="mapInterval" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFIED_TIME" jdbcType="TIMESTAMP" property="modifiedTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="MAP_TYPE" jdbcType="DECIMAL" property="mapType" />
+    <result column="RELATED_ID" jdbcType="DECIMAL" property="relatedId" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="MAP_INTERVAL" jdbcType="DECIMAL" property="mapInterval" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFIED_TIME" jdbcType="TIMESTAMP" property="modifiedTime" />
+  </resultMap>
+</mapper>

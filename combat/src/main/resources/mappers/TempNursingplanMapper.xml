@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.combat.dao.TempNursingplanMapper">
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+    <result column="DIRECTION" jdbcType="VARCHAR" property="direction" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+    <result column="DIRECTION" jdbcType="VARCHAR" property="direction" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+    <result column="DIRECTION" jdbcType="VARCHAR" property="direction" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+    <result column="DIRECTION" jdbcType="VARCHAR" property="direction" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+    <result column="DIRECTION" jdbcType="VARCHAR" property="direction" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+    <result column="DIRECTION" jdbcType="VARCHAR" property="direction" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+    <result column="DIRECTION" jdbcType="VARCHAR" property="direction" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+    <result column="DIRECTION" jdbcType="VARCHAR" property="direction" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+    <result column="DIRECTION" jdbcType="VARCHAR" property="direction" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+    <result column="DIRECTION" jdbcType="VARCHAR" property="direction" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.TempNursingplan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="PLAN_ID" jdbcType="DECIMAL" property="planId" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="EVALUATION_TYPE" jdbcType="VARCHAR" property="evaluationType" />
+    <result column="COLUMN_NUMBER" jdbcType="DECIMAL" property="columnNumber" />
+    <result column="DIRECTION" jdbcType="VARCHAR" property="direction" />
+  </resultMap>
+</mapper>

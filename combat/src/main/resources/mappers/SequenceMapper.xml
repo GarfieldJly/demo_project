@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.combat.dao.SequenceMapper">
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="OTHER" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="OTHER" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="OTHER" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="OTHER" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="OTHER" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="OTHER" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="OTHER" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="OTHER" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="OTHER" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="OTHER" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="OTHER" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="OTHER" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Sequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="VALUE" jdbcType="DECIMAL" property="value" />
+    <result column="DESCRIPTION" jdbcType="OTHER" property="description" />
+  </resultMap>
+</mapper>

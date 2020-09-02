@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.combat.dao.SysTempFbtEntityMapper">
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.SysTempFbtEntity">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="SCHEMA" jdbcType="VARCHAR" property="schema" />
+    <result column="OBJECT_NAME" jdbcType="VARCHAR" property="objectName" />
+    <result column="OBJECT#" jdbcType="DECIMAL" property="object" />
+    <result column="RID" jdbcType="OTHER" property="rid" />
+    <result column="ACTION" jdbcType="CHAR" property="action" />
+  </resultMap>
+
+</mapper>

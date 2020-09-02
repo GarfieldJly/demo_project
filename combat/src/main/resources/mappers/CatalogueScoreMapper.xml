@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.combat.dao.CatalogueScoreMapper">
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+    <result column="SPREAD" jdbcType="VARCHAR" property="spread" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+    <result column="SPREAD" jdbcType="VARCHAR" property="spread" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="OTHER" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="OTHER" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="OTHER" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="OTHER" property="scoreType" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+    <result column="CATALOGUE_NAME" jdbcType="OTHER" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="OTHER" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="OTHER" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="OTHER" property="propertyType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+    <result column="SPREAD" jdbcType="VARCHAR" property="spread" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+    <result column="SPREAD" jdbcType="VARCHAR" property="spread" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+    <result column="SPREAD" jdbcType="VARCHAR" property="spread" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+    <result column="SPREAD" jdbcType="VARCHAR" property="spread" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+    <result column="SPREAD" jdbcType="VARCHAR" property="spread" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+    <result column="SPREAD" jdbcType="VARCHAR" property="spread" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+    <result column="SPREAD" jdbcType="VARCHAR" property="spread" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+    <result column="SPREAD" jdbcType="VARCHAR" property="spread" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+    <result column="SPREAD" jdbcType="VARCHAR" property="spread" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+    <result column="SPREAD" jdbcType="VARCHAR" property="spread" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+    <result column="SPREAD" jdbcType="VARCHAR" property="spread" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+    <result column="SPREAD" jdbcType="VARCHAR" property="spread" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueScore">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SCORE_TYPE" jdbcType="VARCHAR" property="scoreType" />
+    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
+    <result column="RESULT_CODE" jdbcType="VARCHAR" property="resultCode" />
+    <result column="PROPERTY_SCOPE" jdbcType="VARCHAR" property="propertyScope" />
+    <result column="PROPERTY_TYPE" jdbcType="VARCHAR" property="propertyType" />
+    <result column="SPREAD" jdbcType="VARCHAR" property="spread" />
+    <result column="OPTION_SCORE" jdbcType="DECIMAL" property="optionScore" />
+  </resultMap>
+</mapper>

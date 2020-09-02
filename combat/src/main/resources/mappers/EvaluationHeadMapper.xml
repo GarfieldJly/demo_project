@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.combat.dao.EvaluationHeadMapper">
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="OTHER" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="OTHER" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="OTHER" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="OTHER" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="OTHER" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationHead">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEAD_ID" jdbcType="DECIMAL" property="headId" />
+    <result column="HEAD_NAME" jdbcType="VARCHAR" property="headName" />
+    <result column="TABLE_ID" jdbcType="DECIMAL" property="tableId" />
+    <result column="COLUMN_ID" jdbcType="DECIMAL" property="columnId" />
+    <result column="COLUMN_TYPE" jdbcType="VARCHAR" property="columnType" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="PARENT_HEAD_ID" jdbcType="DECIMAL" property="parentHeadId" />
+    <result column="HEADCONTENT" jdbcType="OTHER" property="headcontent" />
+    <result column="HEAD_WIDTH" jdbcType="DECIMAL" property="headWidth" />
+    <result column="HEAD_TYPE" jdbcType="DECIMAL" property="headType" />
+    <result column="HEAD_EXC" jdbcType="VARCHAR" property="headExc" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="HEAD_LINE" jdbcType="DECIMAL" property="headLine" />
+    <result column="DISPLAY_TYPE" jdbcType="DECIMAL" property="displayType" />
+    <result column="READ_FLAG" jdbcType="DECIMAL" property="readFlag" />
+    <result column="ALIGN_TYPE" jdbcType="DECIMAL" property="alignType" />
+  </resultMap>
+</mapper>

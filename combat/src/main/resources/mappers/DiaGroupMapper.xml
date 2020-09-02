@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.combat.dao.DiaGroupMapper">
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DiaGroup">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="GROUP_NAME" jdbcType="VARCHAR" property="groupName" />
+    <result column="SET_COUNT" jdbcType="DECIMAL" property="setCount" />
+    <result column="GROUP_SORT" jdbcType="DECIMAL" property="groupSort" />
+    <result column="RESULT_ID" jdbcType="DECIMAL" property="resultId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DiaGroup">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="GROUP_NAME" jdbcType="VARCHAR" property="groupName" />
+    <result column="SET_COUNT" jdbcType="DECIMAL" property="setCount" />
+    <result column="GROUP_SORT" jdbcType="DECIMAL" property="groupSort" />
+    <result column="RESULT_ID" jdbcType="DECIMAL" property="resultId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DiaGroup">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="GROUP_NAME" jdbcType="VARCHAR" property="groupName" />
+    <result column="SET_COUNT" jdbcType="DECIMAL" property="setCount" />
+    <result column="GROUP_SORT" jdbcType="DECIMAL" property="groupSort" />
+    <result column="RESULT_ID" jdbcType="DECIMAL" property="resultId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DiaGroup">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="GROUP_NAME" jdbcType="VARCHAR" property="groupName" />
+    <result column="SET_COUNT" jdbcType="DECIMAL" property="setCount" />
+    <result column="GROUP_SORT" jdbcType="DECIMAL" property="groupSort" />
+    <result column="RESULT_ID" jdbcType="DECIMAL" property="resultId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DiaGroup">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="GROUP_NAME" jdbcType="VARCHAR" property="groupName" />
+    <result column="SET_COUNT" jdbcType="DECIMAL" property="setCount" />
+    <result column="GROUP_SORT" jdbcType="DECIMAL" property="groupSort" />
+    <result column="RESULT_ID" jdbcType="DECIMAL" property="resultId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DiaGroup">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="GROUP_NAME" jdbcType="VARCHAR" property="groupName" />
+    <result column="SET_COUNT" jdbcType="DECIMAL" property="setCount" />
+    <result column="GROUP_SORT" jdbcType="DECIMAL" property="groupSort" />
+    <result column="RESULT_ID" jdbcType="DECIMAL" property="resultId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DiaGroup">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="GROUP_NAME" jdbcType="VARCHAR" property="groupName" />
+    <result column="SET_COUNT" jdbcType="DECIMAL" property="setCount" />
+    <result column="GROUP_SORT" jdbcType="DECIMAL" property="groupSort" />
+    <result column="RESULT_ID" jdbcType="DECIMAL" property="resultId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DiaGroup">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="GROUP_NAME" jdbcType="VARCHAR" property="groupName" />
+    <result column="SET_COUNT" jdbcType="DECIMAL" property="setCount" />
+    <result column="GROUP_SORT" jdbcType="DECIMAL" property="groupSort" />
+    <result column="RESULT_ID" jdbcType="DECIMAL" property="resultId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DiaGroup">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="GROUP_NAME" jdbcType="VARCHAR" property="groupName" />
+    <result column="SET_COUNT" jdbcType="DECIMAL" property="setCount" />
+    <result column="GROUP_SORT" jdbcType="DECIMAL" property="groupSort" />
+    <result column="RESULT_ID" jdbcType="DECIMAL" property="resultId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DiaGroup">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="GROUP_NAME" jdbcType="OTHER" property="groupName" />
+    <result column="SET_COUNT" jdbcType="DECIMAL" property="setCount" />
+    <result column="GROUP_SORT" jdbcType="DECIMAL" property="groupSort" />
+    <result column="RESULT_ID" jdbcType="DECIMAL" property="resultId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DiaGroup">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="GROUP_NAME" jdbcType="VARCHAR" property="groupName" />
+    <result column="SET_COUNT" jdbcType="DECIMAL" property="setCount" />
+    <result column="GROUP_SORT" jdbcType="DECIMAL" property="groupSort" />
+    <result column="RESULT_ID" jdbcType="DECIMAL" property="resultId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DiaGroup">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="GROUP_NAME" jdbcType="VARCHAR" property="groupName" />
+    <result column="SET_COUNT" jdbcType="DECIMAL" property="setCount" />
+    <result column="GROUP_SORT" jdbcType="DECIMAL" property="groupSort" />
+    <result column="RESULT_ID" jdbcType="DECIMAL" property="resultId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DiaGroup">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="GROUP_NAME" jdbcType="VARCHAR" property="groupName" />
+    <result column="SET_COUNT" jdbcType="DECIMAL" property="setCount" />
+    <result column="GROUP_SORT" jdbcType="DECIMAL" property="groupSort" />
+    <result column="RESULT_ID" jdbcType="DECIMAL" property="resultId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DiaGroup">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="GROUP_NAME" jdbcType="VARCHAR" property="groupName" />
+    <result column="SET_COUNT" jdbcType="DECIMAL" property="setCount" />
+    <result column="GROUP_SORT" jdbcType="DECIMAL" property="groupSort" />
+    <result column="RESULT_ID" jdbcType="DECIMAL" property="resultId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DiaGroup">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="GROUP_NAME" jdbcType="VARCHAR" property="groupName" />
+    <result column="SET_COUNT" jdbcType="DECIMAL" property="setCount" />
+    <result column="GROUP_SORT" jdbcType="DECIMAL" property="groupSort" />
+    <result column="RESULT_ID" jdbcType="DECIMAL" property="resultId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+</mapper>

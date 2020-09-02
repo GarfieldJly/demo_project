@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.combat.dao.DicItemMapper">
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="OTHER" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="OTHER" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="OTHER" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="OTHER" property="configureStatus" />
+    <result column="SUB_CODE" jdbcType="OTHER" property="subCode" />
+    <result column="INPUT_TYPE" jdbcType="VARCHAR" property="inputType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="OTHER" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="OTHER" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="OTHER" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="OTHER" property="configureStatus" />
+    <result column="SUB_CODE" jdbcType="OTHER" property="subCode" />
+    <result column="INPUT_TYPE" jdbcType="VARCHAR" property="inputType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="OTHER" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="OTHER" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="OTHER" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="OTHER" property="configureStatus" />
+    <result column="SUB_CODE" jdbcType="OTHER" property="subCode" />
+    <result column="INPUT_TYPE" jdbcType="VARCHAR" property="inputType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="SUB_CODE" jdbcType="OTHER" property="subCode" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="OTHER" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="OTHER" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="OTHER" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="OTHER" property="configureStatus" />
+    <result column="REMARK" jdbcType="OTHER" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="ITEM_EN_VALUE" jdbcType="VARCHAR" property="itemEnValue" />
+    <result column="ITEM_CHT_VALUE" jdbcType="VARCHAR" property="itemChtValue" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="OTHER" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="OTHER" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="OTHER" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="OTHER" property="configureStatus" />
+    <result column="SUB_CODE" jdbcType="OTHER" property="subCode" />
+    <result column="INPUT_TYPE" jdbcType="VARCHAR" property="inputType" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="OTHER" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="OTHER" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="OTHER" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="DECIMAL" property="configureStatus" />
+    <result column="REMARK" jdbcType="OTHER" property="remark" />
+    <result column="DIC_ITEM_VALUE_CODE" jdbcType="OTHER" property="dicItemValueCode" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="QUESTION_TYPE" jdbcType="DECIMAL" property="questionType" />
+    <result column="LINK_URL_PDA" jdbcType="OTHER" property="linkUrlPda" />
+    <result column="LINK_URL_PC" jdbcType="OTHER" property="linkUrlPc" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="DECIMAL" property="configureStatus" />
+    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="DIC_ITEM_CHT_NAME" jdbcType="VARCHAR" property="dicItemChtName" />
+    <result column="DIC_ITEM_EN_NAME" jdbcType="VARCHAR" property="dicItemEnName" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="OTHER" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="OTHER" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="OTHER" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="OTHER" property="configureStatus" />
+    <result column="REMARK" jdbcType="OTHER" property="remark" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.DicItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DIC_ITEM_CODE" jdbcType="VARCHAR" property="dicItemCode" />
+    <result column="DIC_ITEM_KEY" jdbcType="VARCHAR" property="dicItemKey" />
+    <result column="DIC_ITEM_VALUE" jdbcType="VARCHAR" property="dicItemValue" />
+    <result column="CONFIGURE_STATUS" jdbcType="VARCHAR" property="configureStatus" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+</mapper>

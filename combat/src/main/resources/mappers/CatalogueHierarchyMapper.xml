@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.combat.dao.CatalogueHierarchyMapper">
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueHierarchy">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HIERARCHY_ID" jdbcType="DECIMAL" property="hierarchyId" />
+    <result column="HIERARCHY_NAME" jdbcType="VARCHAR" property="hierarchyName" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="CHILD_HIERARCHY_ID" jdbcType="DECIMAL" property="childHierarchyId" />
+    <result column="ROOT_HIERARCHY_ID" jdbcType="DECIMAL" property="rootHierarchyId" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="PARENT_HIERARCHY_ID" jdbcType="DECIMAL" property="parentHierarchyId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueHierarchy">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HIERARCHY_ID" jdbcType="DECIMAL" property="hierarchyId" />
+    <result column="HIERARCHY_NAME" jdbcType="VARCHAR" property="hierarchyName" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="CHILD_HIERARCHY_ID" jdbcType="DECIMAL" property="childHierarchyId" />
+    <result column="ROOT_HIERARCHY_ID" jdbcType="DECIMAL" property="rootHierarchyId" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="PARENT_HIERARCHY_ID" jdbcType="DECIMAL" property="parentHierarchyId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueHierarchy">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HIERARCHY_ID" jdbcType="DECIMAL" property="hierarchyId" />
+    <result column="HIERARCHY_NAME" jdbcType="VARCHAR" property="hierarchyName" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="CHILD_HIERARCHY_ID" jdbcType="DECIMAL" property="childHierarchyId" />
+    <result column="ROOT_HIERARCHY_ID" jdbcType="DECIMAL" property="rootHierarchyId" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="PARENT_HIERARCHY_ID" jdbcType="DECIMAL" property="parentHierarchyId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueHierarchy">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HIERARCHY_ID" jdbcType="DECIMAL" property="hierarchyId" />
+    <result column="HIERARCHY_NAME" jdbcType="VARCHAR" property="hierarchyName" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="CHILD_HIERARCHY_ID" jdbcType="DECIMAL" property="childHierarchyId" />
+    <result column="ROOT_HIERARCHY_ID" jdbcType="DECIMAL" property="rootHierarchyId" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="PARENT_HIERARCHY_ID" jdbcType="DECIMAL" property="parentHierarchyId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueHierarchy">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HIERARCHY_ID" jdbcType="DECIMAL" property="hierarchyId" />
+    <result column="HIERARCHY_NAME" jdbcType="VARCHAR" property="hierarchyName" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="CHILD_HIERARCHY_ID" jdbcType="DECIMAL" property="childHierarchyId" />
+    <result column="ROOT_HIERARCHY_ID" jdbcType="DECIMAL" property="rootHierarchyId" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="PARENT_HIERARCHY_ID" jdbcType="DECIMAL" property="parentHierarchyId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueHierarchy">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HIERARCHY_ID" jdbcType="DECIMAL" property="hierarchyId" />
+    <result column="HIERARCHY_NAME" jdbcType="VARCHAR" property="hierarchyName" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="CHILD_HIERARCHY_ID" jdbcType="DECIMAL" property="childHierarchyId" />
+    <result column="ROOT_HIERARCHY_ID" jdbcType="DECIMAL" property="rootHierarchyId" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="PARENT_HIERARCHY_ID" jdbcType="DECIMAL" property="parentHierarchyId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueHierarchy">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HIERARCHY_ID" jdbcType="DECIMAL" property="hierarchyId" />
+    <result column="HIERARCHY_NAME" jdbcType="VARCHAR" property="hierarchyName" />
+    <result column="HIERARCHY_NUM" jdbcType="DECIMAL" property="hierarchyNum" />
+    <result column="CHILD_HIERARCHY_ID" jdbcType="DECIMAL" property="childHierarchyId" />
+    <result column="ROOT_HIERARCHY_ID" jdbcType="DECIMAL" property="rootHierarchyId" />
+    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
+    <result column="PARENT_HIERARCHY_ID" jdbcType="DECIMAL" property="parentHierarchyId" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.combat.dao.WardQuestionMapper">
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="OTHER" property="organCode" />
+    <result column="WARD_CODE" jdbcType="OTHER" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.WardQuestion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUTION_LIST_ID" jdbcType="DECIMAL" property="evalutionListId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="WARD_CODE" jdbcType="VARCHAR" property="wardCode" />
+    <result column="FIXED_ITEM" jdbcType="DECIMAL" property="fixedItem" />
+  </resultMap>
+</mapper>

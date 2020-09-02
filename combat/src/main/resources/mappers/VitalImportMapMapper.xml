@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.combat.dao.VitalImportMapMapper">
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.VitalImportMap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="OPTION_ID" jdbcType="DECIMAL" property="optionId" />
+    <result column="UNIQUE_ID" jdbcType="DECIMAL" property="uniqueId" />
+    <result column="VITAL_TYPE" jdbcType="DECIMAL" property="vitalType" />
+    <result column="SUB_TYPE" jdbcType="VARCHAR" property="subType" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="HIERARCHY_CODE" jdbcType="VARCHAR" property="hierarchyCode" />
+    <result column="OPTION_NAME" jdbcType="VARCHAR" property="optionName" />
+    <result column="ITEM_LOCATE" jdbcType="DECIMAL" property="itemLocate" />
+    <result column="VITAL_KIND" jdbcType="DECIMAL" property="vitalKind" />
+  </resultMap>
+</mapper>

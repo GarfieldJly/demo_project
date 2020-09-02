@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.combat.dao.EvaluationListConfigMapper">
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+    <result column="IS_ARCHIVE" jdbcType="VARCHAR" property="isArchive" />
+    <result column="MEASURE_TYPE" jdbcType="DECIMAL" property="measureType" />
+    <result column="FLOW_WORD" jdbcType="DECIMAL" property="flowWord" />
+    <result column="FLOW_TEXT" jdbcType="VARCHAR" property="flowText" />
+    <result column="OTHER_SETTING" jdbcType="VARCHAR" property="otherSetting" />
+    <result column="NAME_SPELL" jdbcType="VARCHAR" property="nameSpell" />
+    <result column="IS_AUTHENTICATION" jdbcType="CHAR" property="isAuthentication" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="OTHER" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="OTHER" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="OTHER" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="OTHER" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="OTHER" property="category" />
+    <result column="REMARK" jdbcType="OTHER" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="OTHER" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="OTHER" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="OTHER" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="OTHER" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="OTHER" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="OTHER" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="NAME_SPELL" jdbcType="VARCHAR" property="nameSpell" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="STATUS" jdbcType="DECIMAL" property="status" />
+    <result column="REPOSITORY" jdbcType="DECIMAL" property="repository" />
+    <result column="GROUP_TYPE" jdbcType="DECIMAL" property="groupType" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+    <result column="IS_ARCHIVE" jdbcType="VARCHAR" property="isArchive" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="OTHER_SETTING" jdbcType="VARCHAR" property="otherSetting" />
+    <result column="SENTENCE_TEXT" jdbcType="VARCHAR" property="sentenceText" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+    <result column="IS_AUTHENTICATION" jdbcType="CHAR" property="isAuthentication" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+    <result column="IS_ARCHIVE" jdbcType="VARCHAR" property="isArchive" />
+    <result column="MEASURE_TYPE" jdbcType="DECIMAL" property="measureType" />
+    <result column="FLOW_WORD" jdbcType="DECIMAL" property="flowWord" />
+    <result column="FLOW_TEXT" jdbcType="VARCHAR" property="flowText" />
+    <result column="OTHER_SETTING" jdbcType="VARCHAR" property="otherSetting" />
+    <result column="NAME_SPELL" jdbcType="VARCHAR" property="nameSpell" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+    <result column="IS_ARCHIVE" jdbcType="VARCHAR" property="isArchive" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+    <result column="IS_ARCHIVE" jdbcType="VARCHAR" property="isArchive" />
+    <result column="MEASURE_TYPE" jdbcType="DECIMAL" property="measureType" />
+    <result column="FLOW_WORD" jdbcType="DECIMAL" property="flowWord" />
+    <result column="FLOW_TEXT" jdbcType="VARCHAR" property="flowText" />
+    <result column="OTHER_SETTING" jdbcType="VARCHAR" property="otherSetting" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+    <result column="IS_ARCHIVE" jdbcType="VARCHAR" property="isArchive" />
+    <result column="MEASURE_TYPE" jdbcType="DECIMAL" property="measureType" />
+    <result column="FLOW_WORD" jdbcType="DECIMAL" property="flowWord" />
+    <result column="FLOW_TEXT" jdbcType="VARCHAR" property="flowText" />
+    <result column="OTHER_SETTING" jdbcType="VARCHAR" property="otherSetting" />
+    <result column="NAME_SPELL" jdbcType="VARCHAR" property="nameSpell" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+    <result column="IS_ARCHIVE" jdbcType="VARCHAR" property="isArchive" />
+    <result column="MEASURE_TYPE" jdbcType="DECIMAL" property="measureType" />
+    <result column="FLOW_WORD" jdbcType="DECIMAL" property="flowWord" />
+    <result column="FLOW_TEXT" jdbcType="VARCHAR" property="flowText" />
+    <result column="OTHER_SETTING" jdbcType="VARCHAR" property="otherSetting" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+    <result column="IS_ARCHIVE" jdbcType="VARCHAR" property="isArchive" />
+    <result column="OTHER_SETTING" jdbcType="VARCHAR" property="otherSetting" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+    <result column="IS_ARCHIVE" jdbcType="VARCHAR" property="isArchive" />
+    <result column="MEASURE_TYPE" jdbcType="DECIMAL" property="measureType" />
+    <result column="FLOW_WORD" jdbcType="DECIMAL" property="flowWord" />
+    <result column="FLOW_TEXT" jdbcType="VARCHAR" property="flowText" />
+    <result column="OTHER_SETTING" jdbcType="VARCHAR" property="otherSetting" />
+    <result column="NAME_SPELL" jdbcType="VARCHAR" property="nameSpell" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+    <result column="IS_ARCHIVE" jdbcType="VARCHAR" property="isArchive" />
+    <result column="MEASURE_TYPE" jdbcType="DECIMAL" property="measureType" />
+    <result column="FLOW_WORD" jdbcType="DECIMAL" property="flowWord" />
+    <result column="FLOW_TEXT" jdbcType="VARCHAR" property="flowText" />
+    <result column="OTHER_SETTING" jdbcType="VARCHAR" property="otherSetting" />
+    <result column="NAME_SPELL" jdbcType="VARCHAR" property="nameSpell" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.EvaluationListConfig">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EVALUATION_LIST_ID" jdbcType="DECIMAL" property="evaluationListId" />
+    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
+    <result column="ORGAN_CODE" jdbcType="VARCHAR" property="organCode" />
+    <result column="EVALUATION_LIST_NAME" jdbcType="VARCHAR" property="evaluationListName" />
+    <result column="EVALUATION_LIST_TYPE" jdbcType="VARCHAR" property="evaluationListType" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="IS_DEL" jdbcType="CHAR" property="isDel" />
+    <result column="OPERATION_CODE" jdbcType="VARCHAR" property="operationCode" />
+    <result column="OPERATION_NAME" jdbcType="VARCHAR" property="operationName" />
+    <result column="EVALUATION_STATUS" jdbcType="VARCHAR" property="evaluationStatus" />
+    <result column="QUOTE_EVALUATION_LIST_ID" jdbcType="DECIMAL" property="quoteEvaluationListId" />
+    <result column="IS_TEMPLATE" jdbcType="CHAR" property="isTemplate" />
+    <result column="EVALUATION_LIST_CLASSIFY" jdbcType="VARCHAR" property="evaluationListClassify" />
+    <result column="DYNAMIC_FLAG" jdbcType="DECIMAL" property="dynamicFlag" />
+    <result column="TABLE_FLAG" jdbcType="DECIMAL" property="tableFlag" />
+    <result column="SPECIAL_FLAG" jdbcType="DECIMAL" property="specialFlag" />
+    <result column="EVALUATION_LIST_SUBCLASS" jdbcType="VARCHAR" property="evaluationListSubclass" />
+    <result column="STATISTIC_TYPE" jdbcType="VARCHAR" property="statisticType" />
+    <result column="DETAIL_TYPE" jdbcType="VARCHAR" property="detailType" />
+    <result column="INIT_POSITION" jdbcType="VARCHAR" property="initPosition" />
+    <result column="ROUTINE_FLAG" jdbcType="DECIMAL" property="routineFlag" />
+    <result column="IS_ARCHIVE" jdbcType="VARCHAR" property="isArchive" />
+    <result column="MEASURE_TYPE" jdbcType="DECIMAL" property="measureType" />
+    <result column="FLOW_WORD" jdbcType="DECIMAL" property="flowWord" />
+    <result column="FLOW_TEXT" jdbcType="VARCHAR" property="flowText" />
+    <result column="OTHER_SETTING" jdbcType="VARCHAR" property="otherSetting" />
+    <result column="NAME_SPELL" jdbcType="VARCHAR" property="nameSpell" />
+  </resultMap>
+</mapper>

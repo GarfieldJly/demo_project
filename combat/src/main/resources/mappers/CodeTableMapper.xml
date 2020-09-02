@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.combat.dao.CodeTableMapper">
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CodeTable">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="DOMAIN_CODE" jdbcType="VARCHAR" property="domainCode" />
+    <result column="DOMAIN_NAME" jdbcType="VARCHAR" property="domainName" />
+    <result column="CODE_VALUE" jdbcType="VARCHAR" property="codeValue" />
+    <result column="CODE_TEXT" jdbcType="VARCHAR" property="codeText" />
+    <result column="CODE_SCHEMA" jdbcType="VARCHAR" property="codeSchema" />
+  </resultMap>
+</mapper>

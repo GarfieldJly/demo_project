@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.combat.dao.RoutineEditareaMapper">
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.RoutineEditarea">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="EVALUATION_ID" jdbcType="DECIMAL" property="evaluationId" />
+    <result column="UNIQUE_STR" jdbcType="VARCHAR" property="uniqueStr" />
+    <result column="ROOT_UNIQUE_ID" jdbcType="VARCHAR" property="rootUniqueId" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="SORT" jdbcType="DECIMAL" property="sort" />
+  </resultMap>
+</mapper>
