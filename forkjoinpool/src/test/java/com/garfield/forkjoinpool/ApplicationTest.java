@@ -109,4 +109,15 @@ public class ApplicationTest {
 
         System.out.println("执行耗时:"+ (System.currentTimeMillis() - startTime)+"毫秒");
     }
+
+    @Test
+    public void  testStr(){
+
+        String str1 = "\"visitNo\":\"A5F7B2218CA159C6E053B696A8C08852\",\"startTime\":\"2020-09-03 00:00:00\",\"endTime\":\"2020-09-03 23:59:59\"";
+
+        String str2 = "{\"visitNo\":\"A5F7B2218CA159C6E053B696A8C08852\"}";
+
+
+        String str3 = "\"queryFlag\":\"true\"";
+    }
 }
