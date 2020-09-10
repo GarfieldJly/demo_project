@@ -8,6 +8,7 @@
         <module>combat</module>
         <module>mq</module>
         <module>mqconsumer</module>
+        <module>mq</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

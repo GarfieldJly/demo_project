@@ -1,9 +1,7 @@
 package com.garfield.mqproducer;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.jms.core.JmsMessagingTemplate;
 
 /**
  * @author jingliyuan
@@ -11,10 +9,10 @@ import org.springframework.jms.core.JmsMessagingTemplate;
  * 生产者
  */
 @SpringBootApplication
-public class ProducerDemo {
+public class ProducerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProducerDemo.class);
+        SpringApplication.run(ProducerApplication.class);
     }
 
 }

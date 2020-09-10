@@ -3,12 +3,6 @@ package com.garfield.mqconsumer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.jms.annotation.EnableJms;
-import org.springframework.jms.annotation.JmsListener;
-
-import javax.annotation.PostConstruct;
-import javax.jms.JMSException;
-import javax.jms.ObjectMessage;
-import java.io.Serializable;
 
 /**
  * @author jingliyuan
@@ -16,8 +10,8 @@ import java.io.Serializable;
  */
 @SpringBootApplication
 @EnableJms
-public class ConsumerDemo {
+public class ConsumerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ConsumerDemo.class);
+        SpringApplication.run(ConsumerApplication.class);
     }
 }
