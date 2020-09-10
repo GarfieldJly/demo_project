@@ -23,4 +23,19 @@ public class SendController {
         rabbitTemplate.convertAndSend("TestDirectExchange","TestDirectRouting","哈喽，测试DirectExchange");
     }
 
+    @GetMapping(value = "/sendDirectMessage2")
+    public void sendDirectMessage2(){
+        rabbitTemplate.convertAndSend("TestTopicExchange","topic.man","哈喽man，测试TestTopicExchange");
+    }
+
+    @GetMapping(value = "/sendDirectMessage3")
+    public void sendDirectMessage3(){
+        rabbitTemplate.convertAndSend("TestTopicExchange","topic.woman","哈喽woman，测试TestTopicExchange");
+    }
+
+    @GetMapping(value = "/sendDirectMessage4")
+    public void sendDirectMessage4(){
+        rabbitTemplate.convertAndSend("testFanoutExchange",null,"哈喽,测试TestFanoutExchange");
+    }
+
 }

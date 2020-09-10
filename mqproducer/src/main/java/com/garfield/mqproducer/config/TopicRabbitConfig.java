@@ -5,13 +5,15 @@ import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.core.TopicExchange;
 import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * @author jingliyuan
  * @date 2020/9/10
+ * @Configuration相当于spring的xml文件,里面可以定义bean的
+ * @Component是把某个类创建一个bean, 只能用autowire那种方式注入
  */
-@Component
+@Configuration
 public class TopicRabbitConfig {
     private static final String MAN = "topic.man";
     private static final String WOMAN = "topic.woman";
@@ -36,4 +38,8 @@ public class TopicRabbitConfig {
         return BindingBuilder.bind(FirstQueue()).to(TestTopicExchange()).with(TopicRabbitConfig.MAN);
     }
 
+    @Bean
+    Binding bindSecondQueue(){
+        return BindingBuilder.bind(SecondQueue()).to(TestTopicExchange()).with(TopicRabbitConfig.WOMAN);
+    }
 }
