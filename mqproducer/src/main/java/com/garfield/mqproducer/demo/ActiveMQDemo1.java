@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
  */
 @RestController
 @RequestMapping("/test")
-public class Demo1 {
+public class ActiveMQDemo1 {
     @Autowired
     private JmsMessagingTemplate jmsMessagingTemplate;
 

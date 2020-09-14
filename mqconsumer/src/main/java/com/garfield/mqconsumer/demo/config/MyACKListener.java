@@ -16,6 +16,7 @@ public class MyACKListener implements ChannelAwareMessageListener {
         long deliveryTag = message.getMessageProperties().getDeliveryTag();
         System.out.println("收到的消息: "+new String(message.getBody()));
         System.out.println("消息来自队列:"+message.getMessageProperties().getConsumerQueue());
+
         //为true会重新放回队列
         channel.basicAck(deliveryTag,true);
     }

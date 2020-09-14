@@ -11,8 +11,8 @@ import org.springframework.stereotype.Component;
 @Component
 @Slf4j
 public class RabbitMQDemo1 {
-    @RabbitListener(queues = "aaa")
-    public void receive(String message){
-        log.info(String.format("收到RabbitMQ的消息:%s",message));
-    }
+//    @RabbitListener(queues = "aaa")
+//    public void receive(String message){
+//        log.info(String.format("收到RabbitMQ的消息:%s",message));
+//    }
 }
