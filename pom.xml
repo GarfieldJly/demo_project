@@ -9,6 +9,7 @@
         <module>mq</module>
         <module>mqconsumer</module>
         <module>mq</module>
+        <module>distributedmq</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

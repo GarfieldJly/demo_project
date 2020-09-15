@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitConfig {
 
-    @Bean
+    @Bean("firstRabbitTemplate")
     public RabbitTemplate createRabbitTemplate(ConnectionFactory connectionFactory){
         RabbitTemplate rabbitTemplate = new RabbitTemplate();
         rabbitTemplate.setConnectionFactory(connectionFactory);
@@ -41,6 +41,7 @@ public class RabbitConfig {
                 System.out.println("ReturnCallback:     "+"路由键："+routingKey);
             }
         });
+//        rabbitTemplate.setMessageConverter(new JS);
 
         return rabbitTemplate;
     }
