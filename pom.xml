@@ -10,6 +10,7 @@
         <module>mqconsumer</module>
         <module>mq</module>
         <module>distributedmq</module>
+        <module>kafka</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
