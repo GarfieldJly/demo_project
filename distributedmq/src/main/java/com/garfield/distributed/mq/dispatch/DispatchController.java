@@ -1,4 +1,4 @@
-package com.garfield.distributed.mq.waybill;
+package com.garfield.distributed.mq.dispatch;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/waybill")
-public class WayBillController {
+public class DispatchController {
     public String createWayBill(){
         return "ok";
     }
