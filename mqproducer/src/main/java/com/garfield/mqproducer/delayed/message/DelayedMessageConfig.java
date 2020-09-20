@@ -19,7 +19,7 @@ import java.util.Map;
 public class DelayedMessageConfig {
     public final static String DELAYED_QUEUE = "delayedQueue3";
     public final static String DELAYED_EXCHANGE = "delayedExchange3";
-    public final static String DELAYED_ROUNTING_KEY = "delayed3";
+    public final static String DELAYED_ROUTING_KEY = "delayed3";
 
     @Bean
     public Queue createDelayedQueue2(){
@@ -33,6 +33,6 @@ public class DelayedMessageConfig {
     }
     @Bean
     public Binding binding2(){
-        return BindingBuilder.bind(createDelayedQueue2()).to(createDelayedExchange2()).with(DELAYED_ROUNTING_KEY).noargs();
+        return BindingBuilder.bind(createDelayedQueue2()).to(createDelayedExchange2()).with(DELAYED_ROUTING_KEY).noargs();
     }
 }

@@ -18,7 +18,7 @@ public class DelayedProducer {
 
     @GetMapping("/send")
     public String send(String msg,Integer delayed){
-        rabbitTemplate.convertAndSend(DelayedMessageConfig.DELAYED_EXCHANGE, DelayedMessageConfig.DELAYED_ROUNTING_KEY, msg, message -> {
+        rabbitTemplate.convertAndSend(DelayedMessageConfig.DELAYED_EXCHANGE, DelayedMessageConfig.DELAYED_ROUTING_KEY, msg, message -> {
             message.getMessageProperties().setDelay(delayed);
             return message;
         });
