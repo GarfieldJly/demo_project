@@ -38,8 +38,8 @@ public class OrderController {
         String orderId = UUID.randomUUID().toString();
         OrderEntity order = new OrderEntity();
         order.setId(orderId);
-        order.setContent("买一杯星巴克");
-        order.setConsumer("加菲猫");
+        order.setContent("buy a cup of starBar");
+        order.setConsumer("Garfield");
         orderService.createOrder(order);
         //3.通知运单系统
 //        String result = restTemplate.getForObject("http://localhost:8084/waybill/createWayBill", String.class);

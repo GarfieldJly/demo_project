@@ -24,7 +24,7 @@ public class WayBillController {
     @Autowired
     private DispatchEntityMapper dispatchEntityMapper;
 
-    @RabbitListener(queues = "createOrderQueue")
+    @RabbitListener(queues = "OrderQueue")
     public void createWayBill(OrderEntity orderEntity, Channel channel, @Header(AmqpHeaders.DELIVERY_TAG) long tag) throws IOException {
         try {
             DispatchEntity dispatchEntity = new DispatchEntity();

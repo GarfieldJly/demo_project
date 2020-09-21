@@ -60,7 +60,7 @@
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
 
-        <table tableName="order" domainObjectName="OrderEntity" enableCountByExample="true" enableUpdateByExample="true"
+        <table tableName="order_meituan" domainObjectName="OrderEntity" enableCountByExample="true" enableUpdateByExample="true"
                enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true">
         </table>
         <table tableName="dispatch" domainObjectName="DispatchEntity" enableCountByExample="true" enableUpdateByExample="true"
