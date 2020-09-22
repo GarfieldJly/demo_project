@@ -1,9 +1,7 @@
 package com.garfield.distributed.mq.config;
 
-import com.alibaba.fastjson.JSONObject;
-import com.garfield.distributed.mq.dao.OrderMapper;
-import com.garfield.distributed.mq.dao.OrderStatusMapper;
-import com.garfield.distributed.mq.domain.entity.OrderEntity;
+import com.garfield.distributed.mq.dao.OrderEntityMapper;
+import com.garfield.distributed.mq.dao.OrderStatusEntityMapper;
 import com.garfield.distributed.mq.domain.entity.OrderStatusEntity;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.*;
@@ -14,10 +12,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.util.Date;
-import java.util.UUID;
-
-
 /**
  * @author jingliyuan
  * @date 2020/9/16
@@ -26,9 +20,7 @@ import java.util.UUID;
 @Slf4j
 public class RabbitMQConfig {
     @Autowired
-    private OrderMapper orderMapper;
-    @Autowired
-    private OrderStatusMapper orderStatusMapper;
+    private OrderStatusEntityMapper orderStatusEntityMapper;
 
     @Bean
     public RabbitTemplate crateRabbitTemplate(ConnectionFactory connectionFactory){
@@ -38,22 +30,10 @@ public class RabbitMQConfig {
             public void confirm(CorrelationData correlationData, boolean b, String s) {
                 if(!b){
                    log.info("消息发送失败");
+                   return;
                 }
-                //1.订单表新增记录
-                OrderEntity orderEntity = new OrderEntity();
-                String orderId = UUID.randomUUID().toString();
-                orderEntity.setId(orderId);
-                orderEntity.setContent("买一杯一点点的奶茶");
-                orderEntity.setConsumer("加菲猫");
-                orderEntity.setCreateTime(new Date());
-                orderMapper.insert(orderEntity);
-                //2.订单日志表新增记录
-                String orderContent = JSONObject.toJSONString(OrderEntity.class);
-                OrderStatusEntity orderStatusEntity = new OrderStatusEntity();
-                orderStatusEntity.setOrderId(orderId);
-                orderStatusEntity.setOrderContent(orderContent);
-                orderStatusEntity.setCreateTime(new Date());
-                orderStatusMapper.insert(orderStatusEntity);
+                String orderId = correlationData.getId();
+                orderStatusEntityMapper.updateOrderStatusByOrderId(orderId,1);
                 log.info(correlationData.toString());
                 log.info("确认信息:"+s);
             }
@@ -67,17 +47,29 @@ public class RabbitMQConfig {
         return rabbitTemplate;
     }
 
+    //队列 起名：TestDirectQueue
     @Bean
-    public Queue createQueue(){
-        return new Queue("createOrderQueue");
+    public Queue TestDirectQueue() {
+        // durable:是否持久化,默认是false,持久化队列：会被存储在磁盘上，当消息代理重启时仍然存在，暂存队列：当前连接有效
+        // exclusive:默认也是false，只能被当前创建的连接使用，而且当连接关闭后队列即被删除。此参考优先级高于durable
+        // autoDelete:是否自动删除，当没有生产者或者消费者使用此队列，该队列会自动删除。
+        //   return new Queue("TestDirectQueue",true,true,false);
+
+        //一般设置一下队列的持久化就好,其余两个就是默认false
+        return new Queue("OrderQueue",true);
     }
+
+    //Direct交换机 起名：TestDirectExchange
     @Bean
-    public DirectExchange createExchange(){
-        return new DirectExchange("createOrderExchange");
+    DirectExchange TestDirectExchange() {
+        //  return new DirectExchange("TestDirectExchange",true,true);
+        return new DirectExchange("OrderExchange",true,false);
     }
+
+    //绑定  将队列和交换机绑定, 并设置用于匹配键：TestDirectRouting
     @Bean
-    public Binding binding(){
-        return BindingBuilder.bind(createQueue()).to(createExchange()).with("createOrder");
+    Binding bindingDirect() {
+        return BindingBuilder.bind(TestDirectQueue()).to(TestDirectExchange()).with("order");
     }
 
 }

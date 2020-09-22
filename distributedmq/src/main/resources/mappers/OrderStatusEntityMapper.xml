@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.garfield.distributed.mq.dao.OrderStatusEntityMapper" >
+  <resultMap id="BaseResultMap" type="com.garfield.distributed.mq.domain.entity.OrderStatusEntity" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="order_id" property="orderId" jdbcType="VARCHAR" />
+    <result column="order_content" property="orderContent" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+    <update id="updateOrderStatusByOrderId">
+      update order_status
+      set status = #{status}
+      where order_id = #{orderId}
+    </update>
+</mapper>
