@@ -28,7 +28,7 @@ public class SendConfig {
 
     @Transactional
     public void send(){
-//1.订单表新增记录
+        //1.订单表新增记录
         OrderEntity orderEntity = new OrderEntity();
         String orderId = UUID.randomUUID().toString();
         orderEntity.setId(orderId);

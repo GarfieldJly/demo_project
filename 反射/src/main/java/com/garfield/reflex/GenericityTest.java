@@ -21,8 +21,8 @@ public class GenericityTest {
         method.invoke(list,88);
 //    //Consumer是个消费型函数,两个::是引用一个类的方法,就是把print方法当做参数传过去了
         //会报类型转换错误
-        list.forEach(System.out::println);
-        //遍历集合
+//        list.forEach(System.out::println);
+        //用这种方式遍历集合，不会报错
         for (Object obj : list) {
             System.out.println(obj);
         }

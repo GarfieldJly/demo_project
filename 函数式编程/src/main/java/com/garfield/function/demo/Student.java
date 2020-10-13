@@ -17,6 +17,7 @@ public class Student {
 
     public static void main(String[] args) {
         Student student = new Student();
+        //没有传参，有返回值
         String name = student.getCustomName(() ->{
            return "gafield";
         });
