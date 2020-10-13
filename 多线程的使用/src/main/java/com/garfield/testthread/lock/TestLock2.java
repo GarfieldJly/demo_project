@@ -12,6 +12,7 @@ import java.util.concurrent.locks.LockSupport;
 public class TestLock2 {
     static Thread thread1,thread2;
     public static void main(String[] args) {
+        //使用CountDownLatch ，当两个线程的值打印结束后，在主线程输出
         CountDownLatch countDownLatch = new CountDownLatch(1);
         StringBuffer stringBuffer = new StringBuffer();
 
@@ -27,14 +28,12 @@ public class TestLock2 {
         });
 
         thread2 = new Thread(() ->{
-            for (int i = 65; i <= 90 ; i++) {
+            for (int i = 65;i <= 90 ; i++) {
                 stringBuffer.append((char)i);
                 LockSupport.unpark(thread1);
                 LockSupport.park();
-                if(i == 90){
-                    countDownLatch.countDown();
-                }
             }
+            countDownLatch.countDown();
         });
 
         thread1.start();
