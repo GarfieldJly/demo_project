@@ -1,9 +1,8 @@
-package com.garfield.distributed.mq.waybill;
+package com.garfield.distributed.mq.dispatch;
 
 import com.garfield.distributed.mq.dao.DispatchEntityMapper;
 import com.garfield.distributed.mq.domain.entity.DispatchEntity;
 import com.garfield.distributed.mq.domain.entity.OrderEntity;
-import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.amqp.support.AmqpHeaders;
@@ -19,7 +18,7 @@ import java.util.UUID;
  * @date 2020/9/15
  */
 @Component
-public class WayBillController {
+public class DispatchController {
 
     @Autowired
     private DispatchEntityMapper dispatchEntityMapper;
