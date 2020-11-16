@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.garfield.db.shardingjdbc.dao.OrderMapper1">
+    <resultMap type="com.garfield.db.shardingjdbc.bean.OrderBean"
+               id="BaseResultMapper">
+        <id property="orderId" column="order_id"/>
+        <result property="userId" column="user_id"/>
+        <result property="content" column="content"/>
+    </resultMap>
+
+    <insert id="insertOrder">
+        insert into t_order(order_id,user_id,content) values(#{orderBean.orderId},#{orderBean.userId},#{orderBean.content})
+    </insert>
+
+    <select id="selectByOrderId" resultMap="BaseResultMapper">
+        select * from t_order where order_id = #{orderId}
+    </select>
+
+
+</mapper>

@@ -12,6 +12,9 @@
         <module>distributedmq</module>
         <module>kafka</module>
         <module>缓存</module>
+        <module>docker的使用</module>
+        <module>数据库分库分表</module>
+        <module>sharding-jdbc</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

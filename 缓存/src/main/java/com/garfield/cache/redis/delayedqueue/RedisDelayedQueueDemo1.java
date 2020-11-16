@@ -11,9 +11,7 @@ import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.listener.PatternTopic;
 import org.springframework.data.redis.listener.RedisMessageListenerContainer;
-import org.springframework.util.ObjectUtils;
 
-import javax.annotation.PostConstruct;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.UUID;
@@ -57,6 +55,7 @@ public class RedisDelayedQueueDemo1 {
             if(count <= 5){
                 System.out.println("消息为:" + content1 + ";;count :" + count);
                 System.out.println("当前时间:" + simpleDateFormat.format(new Date()));
+                //修改重试次数和过期时间
                 count++;
                 ttl = ttl * 2;
                 jsonObject.put("count",count);
