@@ -11,54 +11,5 @@
     <result column="RID" jdbcType="OTHER" property="rid" />
     <result column="ACTION" jdbcType="CHAR" property="action" />
   </resultMap>
-  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.SYSTEMPFBT">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <result column="SCHEMA" jdbcType="VARCHAR" property="schema" />
-    <result column="OBJECT_NAME" jdbcType="VARCHAR" property="objectName" />
-    <result column="OBJECT#" jdbcType="DECIMAL" property="object" />
-    <result column="RID" jdbcType="OTHER" property="rid" />
-    <result column="ACTION" jdbcType="CHAR" property="action" />
-  </resultMap>
-  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.SYSTEMPFBT">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <result column="SCHEMA" jdbcType="VARCHAR" property="schema" />
-    <result column="OBJECT_NAME" jdbcType="VARCHAR" property="objectName" />
-    <result column="OBJECT#" jdbcType="DECIMAL" property="object" />
-    <result column="RID" jdbcType="OTHER" property="rid" />
-    <result column="ACTION" jdbcType="CHAR" property="action" />
-  </resultMap>
-  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.SYSTEMPFBT">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <result column="SCHEMA" jdbcType="VARCHAR" property="schema" />
-    <result column="OBJECT_NAME" jdbcType="VARCHAR" property="objectName" />
-    <result column="OBJECT#" jdbcType="DECIMAL" property="object" />
-    <result column="RID" jdbcType="OTHER" property="rid" />
-    <result column="ACTION" jdbcType="CHAR" property="action" />
-  </resultMap>
-  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.SYSTEMPFBT">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <result column="SCHEMA" jdbcType="VARCHAR" property="schema" />
-    <result column="OBJECT_NAME" jdbcType="VARCHAR" property="objectName" />
-    <result column="OBJECT#" jdbcType="DECIMAL" property="object" />
-    <result column="RID" jdbcType="OTHER" property="rid" />
-    <result column="ACTION" jdbcType="CHAR" property="action" />
-  </resultMap>
-  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.SYSTEMPFBT">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <result column="SCHEMA" jdbcType="VARCHAR" property="schema" />
-    <result column="OBJECT_NAME" jdbcType="VARCHAR" property="objectName" />
-    <result column="OBJECT#" jdbcType="DECIMAL" property="object" />
-    <result column="RID" jdbcType="OTHER" property="rid" />
-    <result column="ACTION" jdbcType="CHAR" property="action" />
-  </resultMap>
+
 </mapper>

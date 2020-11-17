@@ -21,10 +21,4 @@
     <result column="CLASSIFY" jdbcType="VARCHAR" property="classify" />
     <result column="CLASSIFY_CODE" jdbcType="VARCHAR" property="classifyCode" />
   </resultMap>
-  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.Catalogue1">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
-  </resultMap>
 </mapper>

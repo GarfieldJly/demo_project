@@ -33,36 +33,4 @@
     <result column="CATALOGUE_SPELL" jdbcType="VARCHAR" property="catalogueSpell" />
     <result column="ENGLISH_NAME" jdbcType="VARCHAR" property="englishName" />
   </resultMap>
-  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CatalogueAll">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <result column="CATALOGUE_RULE" jdbcType="VARCHAR" property="catalogueRule" />
-    <result column="BASIC_TYPE" jdbcType="VARCHAR" property="basicType" />
-    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
-    <result column="BASIC_CLASSIFY" jdbcType="VARCHAR" property="basicClassify" />
-    <result column="SECOND_CLASSIFY" jdbcType="VARCHAR" property="secondClassify" />
-    <result column="THIRD_CLASSIFY" jdbcType="VARCHAR" property="thirdClassify" />
-    <result column="FOURTH_CLASSIFY" jdbcType="VARCHAR" property="fourthClassify" />
-    <result column="FIFTH_CLASSIFY" jdbcType="VARCHAR" property="fifthClassify" />
-    <result column="CATALOGUE_STATUS" jdbcType="VARCHAR" property="catalogueStatus" />
-    <result column="CATALOGUE_REMARK" jdbcType="VARCHAR" property="catalogueRemark" />
-    <result column="CATALOGUE_REMARK_SPELL" jdbcType="VARCHAR" property="catalogueRemarkSpell" />
-    <result column="SORT_NUM" jdbcType="DECIMAL" property="sortNum" />
-    <result column="AUDIT_TIME" jdbcType="TIMESTAMP" property="auditTime" />
-    <result column="APPLICANTOR" jdbcType="VARCHAR" property="applicantor" />
-    <result column="APPROVER" jdbcType="VARCHAR" property="approver" />
-    <result column="APPROVAL_STATUS" jdbcType="VARCHAR" property="approvalStatus" />
-    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
-    <result column="APPLICANTOR_ID" jdbcType="VARCHAR" property="applicantorId" />
-    <result column="UNIQUE_CODE" jdbcType="VARCHAR" property="uniqueCode" />
-    <result column="SUGGESTION" jdbcType="VARCHAR" property="suggestion" />
-    <result column="RELATE_CODE" jdbcType="VARCHAR" property="relateCode" />
-    <result column="RELATE_KEY" jdbcType="VARCHAR" property="relateKey" />
-    <result column="RELATE_VALUE" jdbcType="VARCHAR" property="relateValue" />
-    <result column="HIERARCHY" jdbcType="VARCHAR" property="hierarchy" />
-    <result column="CATALOGUE_NAME" jdbcType="VARCHAR" property="catalogueName" />
-    <result column="CATALOGUE_SPELL" jdbcType="VARCHAR" property="catalogueSpell" />
-    <result column="ENGLISH_NAME" jdbcType="VARCHAR" property="englishName" />
-  </resultMap>
 </mapper>

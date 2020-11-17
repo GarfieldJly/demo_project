@@ -12,15 +12,5 @@
     <result column="CATALOGUE_CONTENT" jdbcType="VARCHAR" property="catalogueContent" />
     <result column="EVALUATE_TIME" jdbcType="TIMESTAMP" property="evaluateTime" />
   </resultMap>
-  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.PatientProfile">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="ID" jdbcType="DECIMAL" property="id" />
-    <result column="PAT_INDEX_NO" jdbcType="VARCHAR" property="patIndexNo" />
-    <result column="ASSESSMENT_ID" jdbcType="VARCHAR" property="assessmentId" />
-    <result column="CATALOGUE_CODE" jdbcType="VARCHAR" property="catalogueCode" />
-    <result column="CATALOGUE_CONTENT" jdbcType="VARCHAR" property="catalogueContent" />
-    <result column="EVALUATE_TIME" jdbcType="TIMESTAMP" property="evaluateTime" />
-  </resultMap>
+
 </mapper>

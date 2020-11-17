@@ -9,12 +9,4 @@
     <result column="CONFIG_KEY" jdbcType="VARCHAR" property="configKey" />
     <result column="CONFIG_VALUE" jdbcType="VARCHAR" property="configValue" />
   </resultMap>
-  <resultMap id="BaseResultMap" type="com.garfield.combat.domain.entity.CfglCommonConfig">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="ID" jdbcType="DECIMAL" property="id" />
-    <result column="CONFIG_KEY" jdbcType="VARCHAR" property="configKey" />
-    <result column="CONFIG_VALUE" jdbcType="VARCHAR" property="configValue" />
-  </resultMap>
 </mapper>
