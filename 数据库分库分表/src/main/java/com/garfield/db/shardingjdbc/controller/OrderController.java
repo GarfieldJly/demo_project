@@ -1,7 +1,7 @@
 package com.garfield.db.shardingjdbc.controller;
 
-import com.garfield.db.shardingjdbc.bean.OrderBean;
 import com.garfield.db.shardingjdbc.dao.OrderMapper1;
+import com.garfield.db.shardingjdbc.vo.OrderBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;

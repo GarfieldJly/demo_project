@@ -1,6 +1,6 @@
-package com.garfield.db.shardingjdbc.dao;
+package com.garfield.pape.dao;
 
-import com.garfield.db.shardingjdbc.vo.StudentBean;
+import com.garfield.pape.bean.StudentBean;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
@@ -17,5 +17,7 @@ public interface StudentMapper {
     StudentBean selectById(@Param("id") Integer id);
 
     List<StudentBean> selectAll();
+
+    void updateStudentById(@Param("req") StudentBean req);
 
 }
