@@ -10,7 +10,7 @@
     </resultMap>
 
     <insert id="insertStudent">
-        insert into student(name,sex) values(#{studentBean.name},#{studentBean.sex})
+        insert into student(name,sex,create_time,update_time) values(#{name},#{sex},#{createTime},#{updateTime})
     </insert>
 
     <select id="selectById" resultMap="BaseResultMapper">

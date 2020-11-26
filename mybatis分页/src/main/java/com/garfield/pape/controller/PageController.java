@@ -1,4 +1,4 @@
-package com.garfield.pape.control;
+package com.garfield.pape.controller;
 
 import com.garfield.pape.bean.StudentBean;
 import com.garfield.pape.dao.StudentMapper;
@@ -9,10 +9,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -41,8 +38,14 @@ public class PageController {
     }
 
     @PostMapping("/addStudent")
-    public String addStudent(StudentBean studentBean){
+    public String addStudent(@RequestBody StudentBean studentBean){
         studentMapper.insertStudent(studentBean);
         return "Success";
     }
+
+    @GetMapping("/getStudentBeanList")
+    public List<StudentBean> getStudentBeanList(){
+        return studentMapper.selectAll();
+    }
+
 }

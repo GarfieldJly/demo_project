@@ -12,7 +12,7 @@ import java.util.List;
  */
 @Repository
 public interface StudentMapper {
-    void insertStudent(@Param("studentBean") StudentBean studentBean);
+    void insertStudent(StudentBean studentBean);
 
     StudentBean selectById(@Param("id") Integer id);
 
