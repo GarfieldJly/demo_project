@@ -17,6 +17,8 @@
         <module>sharding-jdbc</module>
         <module>distributed</module>
         <module>mybatis分页</module>
+        <module>dubbo的用法</module>
+        <module>dubboconsumer</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
