@@ -23,10 +23,11 @@
             <artifactId>netty</artifactId>
             <version>3.10.6.Final</version>
         </dependency>
+<!--        用0.2.0版本的Consumer获取到的实例为空，换成0.2.1.RELEASE-->
         <dependency>
             <groupId>com.alibaba.boot</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
-            <version>0.2.0</version>
+            <version>0.2.1.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.apache.zookeeper</groupId>

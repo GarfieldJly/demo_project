@@ -19,6 +19,9 @@
         <module>mybatis分页</module>
         <module>dubbo的用法</module>
         <module>dubboconsumer</module>
+        <module>garfieldlog</module>
+        <module>garfieldlogstarter</module>
+        <module>starterexercise</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
