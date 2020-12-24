@@ -13,6 +13,6 @@
 
     <dubbo:service interface="com.garfield.dubbo.service.UserService" ref="userService"/>
 
-    <bean id="userService" class="com.garfield.dubbo.service.UserServiceImpl"/>
+    <com.garfield.es.bean id="userService" class="com.garfield.dubbo.service.UserServiceImpl"/>
 
 </beans>

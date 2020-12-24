@@ -10,7 +10,7 @@ import tk.mybatis.spring.annotation.MapperScan;
  * @author jingliyuan
  * @date 2020/9/15
  */
-@MapperScan(basePackages = "com.garfield.distributed.mq.dao")
+@MapperScan(basePackages = "com.garfield.distributed.mq.com.garfield.es.dao")
 @SpringBootApplication
 public class Application {
     public static void main(String[] args) {

@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2020/11/13
  */
 @SpringBootApplication
-@MapperScan("com.garfield.db.shardingjdbc.dao")
+@MapperScan("com.garfield.db.shardingjdbc.com.garfield.es.dao")
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class);
