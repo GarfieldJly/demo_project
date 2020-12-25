@@ -23,6 +23,7 @@
         <module>garfieldlogstarter</module>
         <module>starterexercise</module>
         <module>es</module>
+        <module>eureka_server</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
