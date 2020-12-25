@@ -1,17 +1,18 @@
-package com.garfield.eureka.server;
+package com.garfield.peer1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @author jingliyuan
  * @date 2020/12/25
  */
 @SpringBootApplication
-@EnableEurekaServer
-public class Application {
+@EnableEurekaClient
+public class PeerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class);
+        SpringApplication.run(PeerApplication.class,args);
     }
+
 }

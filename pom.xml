@@ -24,6 +24,10 @@
         <module>starterexercise</module>
         <module>es</module>
         <module>eureka_server</module>
+        <module>eurekaserver</module>
+        <module>eureka-customer</module>
+        <module>eureka-server-peer1</module>
+        <module>eureka-server-peer2</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
