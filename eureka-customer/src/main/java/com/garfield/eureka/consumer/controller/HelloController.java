@@ -16,8 +16,8 @@ public class HelloController {
     @Autowired
     private RestTemplate restTemplate;
 
-    @GetMapping("/sayHello")
+    @GetMapping("/say")
     public String sayHello(){
-        return restTemplate.getForObject("http://HELLOSERVER", String.class,"");
+        return restTemplate.getForObject("http://HELLOSERVER/eureka/sayHello", String.class,"");
     }
 }
