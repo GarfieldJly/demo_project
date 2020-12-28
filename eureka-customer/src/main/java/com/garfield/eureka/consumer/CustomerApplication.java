@@ -13,9 +13,9 @@ import org.springframework.web.client.RestTemplate;
  */
 @SpringBootApplication
 @EnableEurekaClient
-public class CustomerApplicaion {
+public class CustomerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(CustomerApplicaion.class,args);
+        SpringApplication.run(CustomerApplication.class,args);
     }
 
     @Bean
