@@ -28,6 +28,10 @@
         <module>eureka-customer</module>
         <module>eureka-server-peer1</module>
         <module>eureka-server-peer2</module>
+        <module>easyexcelstudy</module>
+        <module>hystrix-study</module>
+        <module>hystrix-consumer</module>
+        <module>feign-test</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
