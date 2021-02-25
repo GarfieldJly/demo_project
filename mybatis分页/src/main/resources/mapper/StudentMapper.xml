@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.garfield.pape.com.garfield.es.dao.StudentMapper">
-    <resultMap type="com.garfield.pape.com.garfield.es.bean.StudentBean"
+    <resultMap type="com.garfield.pape.bean.StudentBean"
                id="BaseResultMapper">
         <id property="id" column="ID"/>
         <result property="name" column="name"/>
@@ -25,4 +25,12 @@
         update student set name  = #{req.name} where id = #{req.id}
     </update>
 
+
+    <resultMap id="studentVO" type="com.garfield.pape.bean.StudentVO">
+        <result property="name" column="name"/>
+        <collection property="peopleVOList" ofType="com.garfield.pape.bean.PeopleVO">
+            <result property="id" column="ID"/>
+            <result property="sex" column="sex"/>
+        </collection>
+    </resultMap>
 </mapper>
