@@ -19,4 +19,12 @@ public class ClientController {
     public String getName(){
         return serverConfig.getName();
     }
+
+    public static void main(String[] args) {
+        String temp = "aA";
+        System.out.println(temp.toUpperCase());
+        System.out.println(temp.toLowerCase());
+
+
+    }
 }
