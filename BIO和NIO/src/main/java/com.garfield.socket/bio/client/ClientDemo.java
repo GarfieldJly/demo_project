@@ -20,6 +20,6 @@ public class ClientDemo {
         scanner.close();
         outputStream.close();
         clientSocket.close();
-
+        System.out.println("aaaa");
     }
 }
