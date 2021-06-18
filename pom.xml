@@ -5,7 +5,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>jvm</module>
-        <module>combat</module>
         <module>mq</module>
         <module>mqconsumer</module>
         <module>mq</module>
@@ -40,6 +39,7 @@
         <module>异常处理</module>
         <module>classloader类加载器</module>
         <module>垃圾回收</module>
+        <module>collectors收集器</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
