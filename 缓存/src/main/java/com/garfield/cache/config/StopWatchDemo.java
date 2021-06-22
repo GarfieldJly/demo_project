@@ -12,9 +12,10 @@ import java.util.concurrent.TimeUnit;
 public class StopWatchDemo {
     public static void main(String[] args) throws InterruptedException {
         StopWatchDemo stopWatchDemo = new StopWatchDemo();
-//        stopWatchDemo.test1();
+        stopWatchDemo.test1();
 
-        stopWatchDemo.test2();
+//        stopWatchDemo.test2();
+        stopWatchDemo.test3();
     }
 
     /**
@@ -62,6 +63,22 @@ public class StopWatchDemo {
         System.out.println(taskInfo[1].getTaskName()  +"耗时:" + taskInfo[1].getTimeMillis());
         System.out.println(taskInfo[2].getTaskName()  +"耗时:" + taskInfo[2].getTimeMillis());
     }
+
+    //com.google.common.base.Stopwatch类
+    public void test3() throws InterruptedException {
+        com.google.common.base.Stopwatch stopWatch = com.google.common.base.Stopwatch.createStarted();
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("喝奶茶耗时:" + stopWatch.stop());
+
+        stopWatch.reset().start();
+        TimeUnit.SECONDS.sleep(3);
+        System.out.println("敲代码耗时:" + stopWatch.stop());
+
+        stopWatch.reset().start();
+        TimeUnit.SECONDS.sleep(1);
+        System.out.println("发呆耗时:" + stopWatch.stop());
+    }
+
 
 
 }
