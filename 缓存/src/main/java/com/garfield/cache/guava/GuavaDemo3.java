@@ -13,13 +13,16 @@ import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
 import com.google.common.collect.Sets;
 
-import javax.swing.text.html.ListView;
+import java.time.LocalDateTime;
+import java.time.ZoneOffset;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.Map;
-import java.util.Spliterator;
+import java.util.stream.Collectors;
 
 /**
  * Guava 的使用 https://blog.csdn.net/wwwdc1012/article/details/82228458
@@ -32,8 +35,9 @@ public class GuavaDemo3 {
 //        testMap1();
 //        testMap2();
 //        testCollection();
-        testJoin();
+//        testJoin();
 //        testFilter();
+        testSum();
     }
 
     //当我们需要一个map中包含key为String类型，value为List类型的时候
@@ -98,6 +102,9 @@ public class GuavaDemo3 {
         String str = "1-2-3-4-5-6";
         List<String> listSplitter = Splitter.on(",").splitToList(str);
         System.out.println(listSplitter);
+
+        long l = LocalDateTime.now().minusDays(7).toInstant(ZoneOffset.ofHours(8)).toEpochMilli();
+        System.out.println(l);
     }
 
     private static void testFilter(){
@@ -138,6 +145,21 @@ public class GuavaDemo3 {
         System.out.println(entriesOnlyRight);   // {d=4}
         System.out.println(entriesInCommon);    // {c=3}
 
+    }
+
+    private static void testSum(){
+        ArrayList<Integer> list = Lists.newArrayList(2, 4, 6, 8);
+        long sum = list.stream().collect(Collectors.summarizingInt(Integer::valueOf)).getSum();
+        System.out.println("总和:"+sum);
+
+        list.forEach(System.out::println);
+
+        List<Integer> numberList = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
+        IntSummaryStatistics summaryStatistics = numberList.stream().collect(Collectors.summarizingInt(Integer::valueOf));
+        System.out.println("sum:"+summaryStatistics.getSum());
+        System.out.println("average"+summaryStatistics.getAverage());
+        System.out.println("max:"+summaryStatistics.getMax());
+        System.out.println("min:"+summaryStatistics.getMin());
     }
 
 }

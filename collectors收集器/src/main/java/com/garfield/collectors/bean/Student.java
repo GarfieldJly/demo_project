@@ -13,17 +13,19 @@ public class Student {
     public Integer getId() {
         return id;
     }
-
-    public void setId(Integer id) {
+    //return对象本身，可以连着set赋值
+    public Student setId(Integer id) {
         this.id = id;
+        return this;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public Student setName(String name) {
         this.name = name;
+        return this;
     }
 
     @Override
@@ -37,5 +39,8 @@ public class Student {
     public Student(Integer id, String name) {
         this.id = id;
         this.name = name;
+    }
+
+    public Student() {
     }
 }

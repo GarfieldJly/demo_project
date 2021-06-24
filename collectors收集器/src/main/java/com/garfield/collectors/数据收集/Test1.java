@@ -32,14 +32,16 @@ public class Test1 {
         //得到set
         Set<Integer> set = Stream.of(1, 3, 5, 7, 9, 3).collect(Collectors.toSet());
         System.out.println("set 的 size:" + set.size());
-
     }
 
-    private static void buildMap(){
-        Student s1 = new Student(1,"Amy");
-        Student s2 = new Student(2,"Jone");
-        Student s3 = new Student(3,"Rose");
-        Student s4 = new Student(2,"Bruin");
+    private static void buildMap() {
+        Student s1 = new Student(1, "Amy");
+        Student s2 = new Student(2, "Jone");
+        Student s3 = new Student(3, "Rose");
+        Student s4 = new Student(2, "Bruin");
+        Student s5 = new Student();
+        s5.setId(5).setName("Garfield");
+
         //串行得到map
         Map<Integer, Student> map1 = Stream.of(s1, s2, s3).collect(Collectors.toMap(Student::getId, Function.identity()));
         System.out.println("map1的值:" + map1);
@@ -54,4 +56,5 @@ public class Test1 {
         LinkedHashMap<Integer, Student> map4 = Stream.of(s1, s4, s3, s2).collect(Collectors.toMap(Student::getId, Function.identity(), BinaryOperator.maxBy(Comparator.comparing(Student::getName)), LinkedHashMap::new));
         System.out.println("map4的值:" + map4);
     }
+
 }

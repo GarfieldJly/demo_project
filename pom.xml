@@ -41,6 +41,7 @@
         <module>垃圾回收</module>
         <module>collectors收集器</module>
         <module>screwtest</module>
+        <module>JWT的使用</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

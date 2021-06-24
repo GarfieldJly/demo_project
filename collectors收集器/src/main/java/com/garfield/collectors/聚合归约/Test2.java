@@ -59,6 +59,7 @@ public class Test2 {
 
         Double avg = Stream.of(1, 3, 4, 8, 6, 9).collect(Collectors.averagingDouble(Integer::valueOf));
         System.out.println("avg:" + avg);
+
     }
 
     private static void test4() {
