@@ -35,17 +35,7 @@ public class LoginConfig implements HandlerInterceptor {
         Map<String, String[]> parameterMap = request.getParameterMap();
         String[] tokens = parameterMap.get("token");
         if(Objects.isNull(tokens)){
-            String[] userNames = parameterMap.get("userName");
-            String[] passwords = parameterMap.get("password");
-            if(Objects.isNull(userNames) || Objects.isNull(passwords)){
-                throw new BizException(BizEnum.PARAM_ERROR);
-            }
-            UserBean userBean = new UserBean();
-            userBean.setPassword(passwords[0]);
-            userBean.setUserName(userNames[0]);
-            UserLocalThread.localThread.set(userBean);
-            String userJson = JSONObject.toJSONString(userBean);
-            Jwts.builder().setSubject(userJson).signWith(SignatureAlgorithm.HS256,ConstantUtils.SECRET);
+            throw new BizException(BizEnum.PARAM_ERROR);
         }
         Claims claims = Jwts.parser().setSigningKey(ConstantUtils.SECRET).parseClaimsJws(tokens[0]).getBody();
         String subject = claims.getSubject();
